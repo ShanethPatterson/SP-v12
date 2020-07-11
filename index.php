@@ -1,6 +1,6 @@
 <?php
-    require 'mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
-    require 'discography.php'; //returns content array $discography[]
+    require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
+    require 'php/discography.php'; //returns content array $discography[]
     //FEATURED SECTION BOOLEAN---------------------------------
     $featuredsectionshow = true;
 ?>
@@ -93,7 +93,7 @@
                         echo("</div>");//end row
                         $rowterminated = true;
                         for($j=$i-($numAcross-1);$j<$i+1;$j++) { //for last four!
-                            require 'php/music.php';
+                            require 'php/music-drop.php';
                         }
                      }
                     $i = $i + 1;
