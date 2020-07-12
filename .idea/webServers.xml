@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4467d8d1-ad20-455a-8866-fdb1b3d15169" name="Mac Server spv12" url="http://localhost/PHPStorm/spv12">
+        <fileTransfer port="0" mountedRoot="/Library/WebServer/Documents/PHPStorm/spv12" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
