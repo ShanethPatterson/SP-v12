@@ -21,9 +21,9 @@ Music Video directed and produced by Kelly Drake<br>
 Filmed and Edited by Shane Patterson
 ", "2020", ["https://youtu.be/lzsb5VrNPQA", "https://open.spotify.com/artist/0ywpYc2SEKDp64ajlGMN3l?si=tHPnCcQMRi6Wuiz2o0PDJw", "https://music.apple.com/us/artist/isa-bruder/1518952368", "", ""], "<iframe class=\"embed-responsive-item\" id='iframe0' data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><hr>", ""], //Close To Her
         ["Estēe Lauder", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Lauder.png", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
-            <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "<iframe width=\"420\" height=\"237\" src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
+            <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "", "", "", ""], "<iframe width=\"420\" height=\"237\" src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                    allowfullscreen></iframe>", "", "", ""], "", ""],//Estee Lauder
+                    allowfullscreen></iframe>", ""],//Estee Lauder
         ["big eyes & rosy cheeks", "6 Song Album by Stephen Phillips", "Producer &amp; Writer", "Pop", "img/albums/phillips.jpg", "
     All songs written and performed by Stephen Phillips<br>
 <strong> Produced and co-written by Shane Patterson</strong><br>
