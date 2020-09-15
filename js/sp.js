@@ -18,7 +18,15 @@ function showOnlyMusic(mID){
     hideAllMusic();
     id = '#music'+mID;
     $(id).collapse('show');
+}
 
+function showOnlyMusic(mID, rowNum) {
+    hideAllMusic();
+    id = '#music' + mID;
+    $(id).collapse('show');
+    setTimeout(() => {
+        scroll.animateScroll(document.querySelector("#row" + rowNum), {speed: 1000})
+    }, 500);
 }
 function showMusic(i){
     id = '#music'+i;
@@ -41,5 +49,5 @@ function bodyLoaded(){
     }, 1500);
     setTimeout(function () {
         $(".nav-sp-link").removeClass("background-black")
-    }, 2000)
+    }, 2000);
 }

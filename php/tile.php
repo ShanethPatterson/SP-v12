@@ -1,12 +1,12 @@
 <?php
 
         if((($i) % $numAcross) == 0) {
-            echo("<div class=\"row\">");
+            echo("<div class=\"row\" id='row" . $rowNum . "'>");
             $rowterminated = false;
         }
         echo("
-                <div class=\"col-md-2 col-6 hidden_element\" onClick=\"showOnlyMusic($i);\">
-                <div class='hoverbox'>
+                <div class=\"col-md-2 col-6 hidden_element\" onClick=\"showOnlyMusic($i,$rowNum);\">
+                <div class='hoverbox' id='d" . $i . "'>
                 <img src=\" " . $item[4] . " \" class=\"img img-responsive hoverbox-layer_bottom\">
                 <div class='hoverbox-layer_top'>
                 <div class='hovrrbox-text'>

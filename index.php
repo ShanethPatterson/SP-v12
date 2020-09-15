@@ -7,6 +7,7 @@
 ?>
 <html>
 <head>
+    <script></script>
     <!---Required tags----->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -63,7 +64,7 @@
         <!-----End Navbar--->
         <!------Featured Section--->
         <?php if($featuredsectionshow): ?>
-            <div class="jumbotron jumbotron-fluid d-none d-md-block" id="featured-jumbotron">
+            <div class="jumbotron jumbotron-fluid d-none d-lg-block" id="featured-jumbotron">
                 <div class="row">
                     <div class="col-lg-4">
                         <h1>Featured Project:</h1>
@@ -90,7 +91,11 @@
         <div class="music-grid" id="music">
             <?php
                 $i = 0;
+                $rowNum = 0;
                 $numAcross = 6;
+                if($_GET['view'] == "s") {
+                    $numAcross = 2;
+                }
                 $rowterminated = false;
                 foreach($discography as $item) {
                     //  Check type
@@ -100,6 +105,7 @@
                         if((($i + 1) % $numAcross) == 0) {
                             echo("<div class='clearfix hidden-sm'></div>");
                             echo("</div>");//end row
+                            $rowNum++;
                             $rowterminated = true;
                             for($j = $i - ($numAcross - 1); $j < $i + 1; $j++) { //for last four!
                                 require 'php/music-drop.php';
@@ -110,6 +116,7 @@
                 }
                 if(!$rowterminated) { //error handling
                     echo("</div>");
+                    $rowNum++;
                 }
             ?>
         </div>
@@ -231,16 +238,19 @@
             <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking sessions in <a
                         href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the folks at the
                 studio somehow trusted me behind the console recording projects for my friends. While in high school, I
-                was given opportunities to produce over a dozen recordings for local artist, and after leaving for New
+                produced over a dozen projects for local artists, and after leaving for New
                 York City to study Music Technology & Computer Science at NYU, I continued working on everything I
-                could. Somehow, I ended up producing 3 SAMMY nominated projects before I turned 20 while managing
-                classes, studio internships, and various other gigs.
+                could. By the time I turned 20, I had produced 3 SAMMY-Nominated Projects.
+                The album I produced and co-wrote for Stephen Phillips, "big eyes & rosy cheeks", earned a "Best Pop
+                Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
+                I've been incredibly lucky to meet amazing mentors and friends every step of the way as I balanced
+                classes at NYU, gigs in two cities 230 miles apart, and studio internships.
                 <br><br>
-                You can find me playing bass and engineering in both Syracuse and New York City for a vast myriad of
-                artists in all genres. I love live music, and I thrive helping artists develop their vision.
+                You can find me playing bass and engineering in both Syracuse and New York City for a myriad of
+                artists across all genres
                 <br><br>On the side, I design lighting for theatre. I've designed over 20 musicals, with a portfolio of
                 high school, community, regional, and off-broadway shows.<br><br>
-                <br>
+
                 I'm extremely project oriented; I prefer to start a project with an artists first demos, and finish when
                 the masters are ready to go out to distribution. I believe that magical projects come from a dedicated
                 team, and the moments I get to spend
@@ -406,14 +416,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
 <script src="js/sp.js"></script>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="js/smooth-scroll.polyfills.min.js"></script>
+        <script src="js/bootstrap-detect-breakpoint.js"></script>
 <script language="JavaScript">
 setNumMusic(<?php echo(count($discography)); ?>);
 var scroll = new SmoothScroll('a[href*="#"]', {
-    header: '.nav-sp-link'
+    header: '.nav-sp-link',
+    clip: true,
+    updateURL: true,
+    speed: 500
 });
+
 </script>
 </body>
 </html>

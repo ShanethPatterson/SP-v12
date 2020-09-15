@@ -238,6 +238,11 @@ body {
 .music-drop-outer{
     background-color: #f6f6f6;
 }
+
+.music-drop .badge {
+    top: 0;
+    left: 0;
+}
 #video-jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
     url("../img/livesession.jpg");
