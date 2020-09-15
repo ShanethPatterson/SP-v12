@@ -23,8 +23,8 @@ Saxophone: Luke Hart<br>
 Mix Assistant: Wesley Yu<br>
 Mastered by Steve Brown<br>
 Filmed by Cody Slade", "2019", ["https://www.youtube.com/playlist?list=OLAK5uy_mOUD3iQ_6IWKtNybKKnpJN40wDlTKs3Fk", "https://open.spotify.com/album/1mBwWgwDsviQpl8cVfLgst", "https://music.apple.com/us/album/fantastic-invasion-ep/1526964826?app=music", "https://listen.tidal.com/album/151485776", ""], "
-            <iframe  src=\"https://www.youtube.com/embed/vQZwiWZSvrY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><hr>
-            <iframe src=\"https://embed.music.apple.com/us/album/fantastic-invasion-ep/1526964826?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ls=1\" height=\"450px\" frameborder=\"0\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"autoplay *; encrypted-media *;\" style=\"width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;\"></iframe>
+            <iframe  data-src=\"https://www.youtube.com/embed/vQZwiWZSvrY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><hr>
+            <iframe data-src=\"https://embed.music.apple.com/us/album/fantastic-invasion-ep/1526964826?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ls=1\" height=\"450px\" frameborder=\"0\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"autoplay *; encrypted-media *;\" style=\"width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;\"></iframe>
             ", ""],
         ["Close To Her", "Single by Isa Bruder", "Producer", "Pop", "img/albums/CloseToHerCoverArt.jpeg", "“Close To Her” by Isa Bruder<br>
 Written by Isa Bruder & Jules Brave<br>
@@ -35,7 +35,7 @@ Music Video directed and produced by Kelly Drake<br>
 Filmed and Edited by Shane Patterson
 ", "2020", ["https://youtu.be/lzsb5VrNPQA", "https://open.spotify.com/artist/0ywpYc2SEKDp64ajlGMN3l?si=tHPnCcQMRi6Wuiz2o0PDJw", "https://music.apple.com/us/artist/isa-bruder/1518952368", "", ""], "<iframe class=\"embed-responsive-item\" id='iframe0' data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><hr>", "Debuted exclusively on GIRL GANG NYC"], //Close To Her
         ["Estēe Lauder", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Lauder.png", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
-            <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "", "", "", ""], "<iframe width=\"420\" height=\"237\" src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
+            <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "", "", "", ""], "<iframe width=\"420\" height=\"237\" data-src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
                     allowfullscreen></iframe>", ""],//Estee Lauder
         ["big eyes & rosy cheeks", "6 Song Album by Stephen Phillips", "Producer &amp; Writer", "Pop", "img/albums/phillips.jpg", "

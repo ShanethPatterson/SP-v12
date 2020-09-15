@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5727c7c7-433f-4e08-ac92-ce85f01e0dc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/smooth-scroll.polyfills.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/sp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/tile.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/tile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/discography.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/discography.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="250" column="16" selection-start-line="250" selection-start-column="16" selection-end-line="250" selection-end-column="16" />
-              <folding>
-                <element signature="e#20960#20990#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="2788">
+              <caret line="189" column="32" lean-forward="true" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -51,17 +46,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/discography.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="414">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="e#511#1849#1#PHP" />
+                <element signature="e#1859#2662#1#PHP" />
+                <element signature="n#iframe#0;n#!!top" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/sp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="465">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+              <folding>
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/css/sp.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="242" column="11" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
+              <caret line="243" column="11" selection-start-line="243" selection-start-column="11" selection-end-line="243" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -113,11 +132,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/discography.php" />
         <option value="$PROJECT_DIR$/css/sp.css" />
         <option value="$PROJECT_DIR$/php/tile.php" />
-        <option value="$PROJECT_DIR$/js/sp.js" />
+        <option value="$PROJECT_DIR$/php/discography.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/sp.js" />
       </list>
     </option>
   </component>
@@ -150,6 +169,17 @@
               <item name="SP-v12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SP-v12" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SP-v12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SP-v12" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SP-v12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SP-v12" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SP-v12" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +255,7 @@
       <workItem from="1598413929293" duration="31000" />
       <workItem from="1599001286783" duration="610000" />
       <workItem from="1600142257440" duration="3859000" />
-      <workItem from="1600187469245" duration="2052000" />
+      <workItem from="1600187469245" duration="5153000" />
     </task>
     <task id="LOCAL-00001" summary="moved some files around for dedicated /php directory to keep things clean">
       <created>1594505782997</created>
@@ -290,11 +320,25 @@
       <option name="project" value="LOCAL" />
       <updated>1600143016653</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lots of updates">
+      <created>1600189714162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600189714162</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lots of updates">
+      <created>1600190425123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600190425123</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20098000" />
+    <option name="totallyTimeSpent" value="23199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
@@ -340,22 +384,13 @@
     <MESSAGE value="Several Updates: Loading handler, new albums, styled bottom half of page." />
     <MESSAGE value="major additions" />
     <MESSAGE value="scrolling" />
-    <option name="LAST_COMMIT_MESSAGE" value="scrolling" />
+    <MESSAGE value="lots of updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of updates" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/music-drop.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/discography.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Sites/sp v10 php git/sp/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21068">
@@ -366,7 +401,7 @@
     <entry file="file://$PROJECT_DIR$/css/sp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
-          <caret line="242" column="11" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
+          <caret line="243" column="11" selection-start-line="243" selection-start-column="11" selection-end-line="243" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -377,19 +412,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sp.js">
+    <entry file="file://$PROJECT_DIR$/php/discography.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="414">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#511#1849#1#PHP" />
+            <element signature="e#1859#2662#1#PHP" />
+            <element signature="n#iframe#0;n#!!top" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/music-drop.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="250" column="16" selection-start-line="250" selection-start-column="16" selection-end-line="250" selection-end-column="16" />
+        <state relative-caret-position="2788">
+          <caret line="189" column="32" lean-forward="true" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
-            <element signature="e#20960#20990#0#HTML" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
           </folding>
         </state>
       </provider>

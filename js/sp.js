@@ -24,6 +24,9 @@ function showOnlyMusic(mID, rowNum) {
     hideAllMusic();
     id = '#music' + mID;
     $(id).collapse('show');
+    $(id + " iframe").each(function (index) {
+        $(this).attr("src", $(this).attr("data-src"));
+    });
     setTimeout(() => {
         scroll.animateScroll(document.querySelector("#row" + rowNum), {speed: 1000})
     }, 500);
@@ -34,7 +37,13 @@ function showMusic(i){
 }
 function loadiFrames(){
     //load iframes by replacing src with data-src
-    $("iframe").each(function(index) {
+    /*$("iframe").each(function(index) {
+        $(this).attr("src", $(this).attr("data-src"));
+    });*/
+    $("iframe").each(function (index) {
+        $(this).attr("src", "img/loading.gif");
+    });
+    $("#featured-jumbotron iframe").each(function (index) {
         $(this).attr("src", $(this).attr("data-src"));
     });
 }
