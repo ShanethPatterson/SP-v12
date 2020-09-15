@@ -12,6 +12,20 @@
         //TEMPLATE: ["Title","X Songs Format by <a href="">Artist</a>","Producer","Pop","img/albums/x.jpeg",
         //"description"
         //,"2019",["yt","sp","am","t","bc"],"widget code","nomintated for somethin"],
+        ["Fantastic Invasion", "EP by Posted", "Engineer & Mixer", "Rock", "img/albums/fantasticinvasion.jpg", "Vocals: Nate Murphy<br>
+Guitar: Dan Wrona<br>
+Bass: Riley Burns<br>
+Drums: Greg Wrona<br>
+Piano: Colin Arnett<br>
+Saxophone: Luke Hart<br>
+
+<strong>Engineered and Mixed by Shane Patterson</strong><br>
+Mix Assistant: Wesley Yu<br>
+Mastered by Steve Brown<br>
+Filmed by Cody Slade", "2019", ["https://www.youtube.com/playlist?list=OLAK5uy_mOUD3iQ_6IWKtNybKKnpJN40wDlTKs3Fk", "https://open.spotify.com/album/1mBwWgwDsviQpl8cVfLgst", "https://music.apple.com/us/album/fantastic-invasion-ep/1526964826?app=music", "https://listen.tidal.com/album/151485776", ""], "
+            <iframe  src=\"https://www.youtube.com/embed/vQZwiWZSvrY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><hr>
+            <iframe src=\"https://embed.music.apple.com/us/album/fantastic-invasion-ep/1526964826?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ls=1\" height=\"450px\" frameborder=\"0\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"autoplay *; encrypted-media *;\" style=\"width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;\"></iframe>
+            ", ""],
         ["Close To Her", "Single by Isa Bruder", "Producer", "Pop", "img/albums/CloseToHerCoverArt.jpeg", "“Close To Her” by Isa Bruder<br>
 Written by Isa Bruder & Jules Brave<br>
 Produced and Mixed by Shane Patterson<Br>
@@ -19,7 +33,7 @@ Cello by Sean Penzo<br>
 <br>
 Music Video directed and produced by Kelly Drake<br>
 Filmed and Edited by Shane Patterson
-", "2020", ["https://youtu.be/lzsb5VrNPQA", "https://open.spotify.com/artist/0ywpYc2SEKDp64ajlGMN3l?si=tHPnCcQMRi6Wuiz2o0PDJw", "https://music.apple.com/us/artist/isa-bruder/1518952368", "", ""], "<iframe class=\"embed-responsive-item\" id='iframe0' data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><hr>", ""], //Close To Her
+", "2020", ["https://youtu.be/lzsb5VrNPQA", "https://open.spotify.com/artist/0ywpYc2SEKDp64ajlGMN3l?si=tHPnCcQMRi6Wuiz2o0PDJw", "https://music.apple.com/us/artist/isa-bruder/1518952368", "", ""], "<iframe class=\"embed-responsive-item\" id='iframe0' data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><hr>", "Debuted exclusively on GIRL GANG NYC"], //Close To Her
         ["Estēe Lauder", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Lauder.png", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
             <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "", "", "", ""], "<iframe width=\"420\" height=\"237\" src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
@@ -104,18 +118,18 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
                     allowfullscreen></iframe>", "2018", ["https://youtu.be/MtojqaERcAE", "", "", "", ""], "", ""],//History
 
 
-        ["Alone On Saturday Night", "Single by Brett Altman", "Engineer & Mixer", "Acoustic Pop", "img/albums/AloneSatNight.jpg", "Written and Performed by Brett Altman<br>
+        ["Low Overhead", "EP by Brett Altman", "Engineer & Mixer", "Acoustic Pop", "img/albums/lowoverhead.jpg", "Written and Performed by Brett Altman<br>
          Produced by Maxwell Henry<br>
-         Additional guitar by Chris Patwell<br>
+         Additional guitars by Chris Patwell<br>
          <strong>Engineered and Mixed by Shane Patterson</strong><br>
          Mastered by Nicholas Ciavatta<br>
-         Recorded at Transmitter Park Studios", "2020", ["https://youtu.be/E7boJeyoTB8", "https://open.spotify.com/track/1QxuWUOd4MPNahShuPMgE9?si=4NknLMVWS8uASucwMyhnPw", "https://music.apple.com/us/album/alone-on-saturday-night-acoustic/1508653220?i=1508653224", "https://tidal.com/browse/track/137633555", ""], "<iframe data-src=\"https://www.youtube.com/embed/E7boJeyoTB8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", "Debuted on Pop Matters"], //Alone on Sat Night
+         Recorded at Transmitter Park Studios", "2020", ["https://youtu.be/E7boJeyoTB8", "https://open.spotify.com/album/6csVoUqzaYRUhilcqwZf5F", "https://geo.music.apple.com/us/album/low-overhead-ep-acoustic/1525898258?mt=1&app=music", "", ""], "<iframe src=\"https://embed.music.apple.com/us/album/low-overhead-ep-acoustic/1525898258?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ls=1\" height=\"450px\" frameborder=\"0\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"autoplay *; encrypted-media *;\" style=\"width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;\"></iframe>", "Debuted on Pop Matters"], //Low Overhead
         ["5:17", "Single by Stephen Phillips", "Producer", "Pop", "img/albums/517.png", "Written and Performed by Stephen Phillips<br>
          <strong>Produced and Mixed by Shane Patterson</strong><br>
          Mastered by Steve Brown
          Guitar by David Millen<br>
          ", "2020", ["https://youtu.be/ou9j-HQ3fhI", "https://open.spotify.com/track/73exVKQtQulhdv5Pl6ZVP0?si=fl0hwOvGRGKyFP4uo_uR2w", "https://music.apple.com/us/album/5-17/1510980359?i=1510980361", "https://tidal.com/browse/track/139347649", ""], "<iframe data-src=\"https://www.youtube.com/embed/ou9j-HQ3fhI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //5:17
-        ["Black Rose", "Single by NikoPease", "Mixer & Additional Production", "Rap", "img/albums/BlackRose.JPG", "Written and Performed by NikoPease<br>
+        ["Black Rose", "Single by NikoPease", "Mixer", "Rap", "img/albums/BlackRose.JPG", "Written and Performed by NikoPease<br>
         <strong>Engineered, Mixed, and Additional Production by Shane Patterson</strong>
         <br>Video by <a href='http://rabvisuals.com'>Robert Bryant</a><br>Additional Mixing: Steve Brown
         
@@ -129,6 +143,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
             <iframe data-src=\"https://www.youtube.com/embed/KWdFmOojxAM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
                     allowfullscreen></iframe>", ""],//SIAS
+
         ["Still Into You", "Cover by Isa Bruder", "Producer", "Pop", "img/albums/StillIntoYou.png", "Recorded by Isa Bruder<br><strong>Produced and Mixed by Shane Patterson</strong><br>Guitar by Kate Gallagher<br>Drums by Nate Piazza<br><br>Recorded in the basement of NYU Weinstien Residence Hall", "2018", ["https://youtu.be/mzIJ_2w1m3k", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/mzIJ_2w1m3k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //still into you
 
         ["Churches And Graveyards", "5 Song EP by Churches And Graveyards", "Producer", "Rock", "img/albums/ChurchesAndGraveYards.JPG", "<h3>Songs 2-6</h3><strong>Produced, Engineered and Mixed by Shane Patterson</strong><br>All songs written and performed by Churches and Graveyards<br>Mix Assistant: Wesley Yu<br>Recorded at <a href='http://subcat.net'>Subcat Studios</a> and <a href='http://hobinstudios.com'>Hobin Studios</a><hr>Song 1 produced and mixed at <a href='http://moresound315.com'> More Sound Recording Studios</a>.

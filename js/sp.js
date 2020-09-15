@@ -1,8 +1,12 @@
+document.getElementById("body-content").style.opacity = 0;
+$("#header").addClass("maxheight");
+$(".nav-sp-link").addClass("background-black");
+
 function setNumMusic(inumMusic){
     numMusic=inumMusic
 }
 function hideAllMusic(){
-    for(var i=0;i<numMusic;i++){
+    for (var i = 0; i < numMusic; i++) {
         id='#music'+i;
         $(id).collapse('hide');
         //reset iframes to stop playback of hidden dropdowns
@@ -28,4 +32,14 @@ function loadiFrames(){
 }
 function bodyLoaded(){
     loadiFrames();
+    setTimeout($(".cover").fadeOut(500), 500);
+    setTimeout(function () {
+        (document.getElementById("body-content").style.opacity = 1)
+    }, 800);
+    setTimeout(function () {
+        $("#header").removeClass("maxheight")
+    }, 1500);
+    setTimeout(function () {
+        $(".nav-sp-link").removeClass("background-black")
+    }, 2000)
 }

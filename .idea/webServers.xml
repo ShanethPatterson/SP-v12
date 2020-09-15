@@ -5,6 +5,14 @@
       <webServer id="4467d8d1-ad20-455a-8866-fdb1b3d15169" name="Mac Server spv12" url="http://localhost/PHPStorm/spv12">
         <fileTransfer port="0" mountedRoot="/Library/WebServer/Documents/PHPStorm/spv12" accessType="MOUNT" />
       </webServer>
+      <webServer id="ef7fe130-c818-4c12-918a-a6a03753051d" name="PROD" url="http://shaneth.com/v12">
+        <fileTransfer host="ftp.shaneth.a2hosted.com" port="21" rootFolder="/public_html/shaneth/v12">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

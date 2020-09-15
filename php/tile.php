@@ -16,7 +16,7 @@
             </div>
             </div>
             <span class=\"badge\">" . $item[2] . "</span> <span class=\"badge\">" . $item[3] . "</span>
-            <span class='badge label-year hidden-xs'>" . $item[6] . "</span>
+            
             </div>
                 ");
 
