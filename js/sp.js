@@ -1,5 +1,5 @@
 document.getElementById("body-content").style.opacity = 0;
-$("#header").addClass("maxheight");
+//$("#header").addClass("maxheight"); don't use this now
 $(".nav-sp-link").addClass("background-black");
 
 function setNumMusic(inumMusic){
@@ -46,6 +46,10 @@ function loadiFrames(){
     $("#featured-jumbotron iframe").each(function (index) {
         $(this).attr("src", $(this).attr("data-src"));
     });
+    $("#video-jumbotron iframe").each(function (index) {
+        $(this).attr("src", $(this).attr("data-src"));
+    });
+
 }
 function bodyLoaded(){
     loadiFrames();
@@ -53,8 +57,11 @@ function bodyLoaded(){
     setTimeout(function () {
         (document.getElementById("body-content").style.opacity = 1)
     }, 800);
-    setTimeout(function () {
+    /*setTimeout(function () {
         $("#header").removeClass("maxheight")
+    }, 1500);*/
+    setTimeout(function () {
+        $("#header").addClass("header-setheight")
     }, 1500);
     setTimeout(function () {
         $(".nav-sp-link").removeClass("background-black")
