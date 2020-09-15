@@ -27,6 +27,10 @@
 <div class="cover" id="cover">
     <div class="text-center">
         <h1 class="loading-banner">Loading...</h1>
+        <?php if($_GET['view'] == "s") {
+            echo("<h3 class='loading-banner'>mobile version</h3>");
+        }
+        ?>
     </div>
 </div>
 <body onload="bodyLoaded()" data-spy="scroll" data-target="#main-nav">
@@ -34,7 +38,7 @@
     <!------Header------------->
     <div class="jumbotron jumbotron-fluid" id="header">
         <div class="text-center">
-            <img class="mx-auto d-block" src="img/logos/SPlogo-logoOnly.png">
+            <img class="mx-auto d-block img-fluid" src="img/logos/SPlogo-logoOnly.png">
             <h1>Shane Patterson</h1>
         </div>
     </div>
@@ -183,7 +187,7 @@
                 </li>
             </ul>
             <div class="row center">
-                <div class="col-sm-2">
+                <div class="col-xs-2">
                     <img class="img-fluid" src="img/dante3seal.png">
                 </div>
             </div>
@@ -423,12 +427,27 @@
         <script src="js/bootstrap-detect-breakpoint.js"></script>
 <script language="JavaScript">
 setNumMusic(<?php echo(count($discography)); ?>);
-var scroll = new SmoothScroll('a[href*="#"]', {
+
+<?php if($_GET['view'] != "s") {
+    echo("
+    if(bootstrapDetectBreakpoint().index<=1){
+    window.location.href=\"?view=s\";
+    var scroll = new SmoothScroll('a[href*=\"#\"]', {
     header: '.nav-sp-link',
     clip: true,
     updateURL: true,
     speed: 500
 });
+}
+");
+} else {
+    echo("
+    if(bootstrapDetectBreakpoint().index>1){
+    window.location.href=\"?\";
+}
+");
+}
+?>
 
 </script>
 </body>
