@@ -1,6 +1,8 @@
 html {
-    scroll-behavior: smooth;
-    scroll-padding: 75px;
+    /* scroll-behavior: smooth;
+     scroll-padding: 75px;
+     enable these when browser support is better
+     */
 
 }
 

@@ -411,7 +411,9 @@
         <script src="js/smooth-scroll.polyfills.min.js"></script>
 <script language="JavaScript">
 setNumMusic(<?php echo(count($discography)); ?>);
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]', {
+    header: '.nav-sp-link'
+});
 </script>
 </body>
 </html>
