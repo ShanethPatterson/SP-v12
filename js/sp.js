@@ -49,9 +49,14 @@ function loadiFrames(){
     $("#video-jumbotron iframe").each(function (index) {
         $(this).attr("src", $(this).attr("data-src"));
     });
-
+    $("#contact iframe").each(function (index) {
+        $(this).attr("src", $(this).attr("data-src"));
+    });
 }
 function bodyLoaded(){
+    $("iframe").each(function (index) {
+        $(this).attr("data-src", $(this).attr("src"));
+    });
     loadiFrames();
     setTimeout($(".cover").fadeOut(500), 500);
     setTimeout(function () {
@@ -62,8 +67,9 @@ function bodyLoaded(){
     }, 1500);*/
     setTimeout(function () {
         $("#header").addClass("header-setheight")
-    }, 1500);
+    }, 1200);
     setTimeout(function () {
         $(".nav-sp-link").removeClass("background-black")
     }, 2000);
+
 }

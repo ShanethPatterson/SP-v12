@@ -143,6 +143,15 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
             <iframe data-src=\"https://www.youtube.com/embed/KWdFmOojxAM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
                     allowfullscreen></iframe>", ""],//SIAS
+        ["Who Are You", "Album by Joel Ross", "Asst. Engineer", "Jazz", "img/albums/joelross.jpg", "Produced by Joel Ross and Walter Smith III<br>
+        Composed by Joel Ross<br>
+        Alto Saxophone by Immanuel Wilkins<br>
+        Bass by Kanoa Mendenhall<br>
+        Drums by Jeremy Dutton<br>
+        Engineered by Jason Rostkowski<br>
+        Mixed and Mastered by Dave Darlington<br>
+        <strong>Assistant Engineer: Diego Rodoni, Jonathan Hill, Shane Patterson</strong><br><br>
+        Released October 23, 2020", "2020", ["", "", "", "", ""], "<div style=\"position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://embed.tidal.com/tracks/152667488?layout=gridify\" frameborder=\"0\" allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;\"></iframe></div>", "Released on Blue Note Records"],
 
         ["Still Into You", "Cover by Isa Bruder", "Producer", "Pop", "img/albums/StillIntoYou.png", "Recorded by Isa Bruder<br><strong>Produced and Mixed by Shane Patterson</strong><br>Guitar by Kate Gallagher<br>Drums by Nate Piazza<br><br>Recorded in the basement of NYU Weinstien Residence Hall", "2018", ["https://youtu.be/mzIJ_2w1m3k", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/mzIJ_2w1m3k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //still into you
 

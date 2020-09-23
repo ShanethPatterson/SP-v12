@@ -113,16 +113,20 @@
                             echo("</div>");//end row
                             $rowNum++;
                             $rowterminated = true;
-                            for($j = $i - ($numAcross - 1); $j < $i + 1; $j++) { //for last four!
+                        for($j = $i - ($numAcross - 1); $j < ($i + 1); $j++) { //for last four!
                                 require 'php/music-drop.php';
                             }
                         }
                     $i = $i + 1;
                 }
             }
-            if(!$rowterminated) { //error handling
+            if(!$rowterminated) { //error handling incomplete rows
                 echo("</div>");
                 $rowNum++;
+                $rowterminated = true;
+                for($j = (floor($i / $numAcross) * $numAcross); $j < ($i); $j++) { //for last row
+                    require 'php/music-drop.php';
+                }
             }
         ?>
     </div>
@@ -453,8 +457,18 @@
 
     </script>
     <script src="js/sp.js"></script>
-    <script language="JavaScript">
-        setNumMusic(<?php echo(count($discography)); ?>);
+    <script language="javascript">
+        numMusic = (<?php echo(count($discography)); ?>);
+        <?php
+        if(isset($_GET['project'])) {
+            echo("
+                    setTimeout(function () {
+                        showOnlyMusic(" . floor($_GET['project']) . "," . floor($_GET['project'] / $numAcross) . ")
+                     }, 2500);
+                     ");
+        }
+        ?>
+
     </script>
 
 
