@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/sp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/discography.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/discography.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="462" column="42" lean-forward="true" selection-start-line="462" selection-start-column="42" selection-end-line="462" selection-end-column="42" />
-              <folding>
-                <element signature="e#20387#20804#0#PHP" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="244" column="10" lean-forward="true" selection-start-line="244" selection-start-column="10" selection-end-line="244" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -51,44 +47,33 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/discography.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="154" column="89" selection-start-line="154" selection-start-column="89" selection-end-line="154" selection-end-column="89" />
+            <state relative-caret-position="805">
+              <caret line="152" column="89" selection-start-line="152" selection-start-column="89" selection-end-line="152" selection-end-column="89" />
               <folding>
                 <element signature="e#511#1859#1#PHP" />
                 <element signature="e#1869#2672#1#PHP" />
                 <element signature="e#2697#3233#1#PHP" />
                 <element signature="e#3257#5988#1#PHP" />
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
                 <element signature="e#6022#7997#1#PHP" />
                 <element signature="e#8023#10618#1#PHP" />
                 <element signature="e#10638#11178#1#PHP" />
                 <element signature="e#11199#12268#1#PHP" />
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
                 <element signature="e#12293#13002#1#PHP" />
                 <element signature="e#13019#13775#1#PHP" />
                 <element signature="e#14498#15661#1#PHP" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#16251#17202#1#PHP" />
-                <element signature="e#17218#18188#1#PHP" />
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-                <element signature="e#18216#18974#1#PHP" />
-                <element signature="e#18989#19557#1#PHP" />
-                <element signature="e#20246#21258#1#PHP" />
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/sp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="353">
+              <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -96,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
+            <state relative-caret-position="1035">
               <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
             </state>
           </provider>
@@ -142,9 +127,9 @@
       <list>
         <option value="$PROJECT_DIR$/php/tile.php" />
         <option value="$PROJECT_DIR$/css/sp.css" />
-        <option value="$PROJECT_DIR$/js/sp.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/discography.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/sp.js" />
       </list>
     </option>
   </component>
@@ -167,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +195,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +259,8 @@
       <workItem from="1600193276731" duration="164000" />
       <workItem from="1600200096059" duration="2125000" />
       <workItem from="1600745433768" duration="946000" />
-      <workItem from="1600887196352" duration="1691000" />
+      <workItem from="1600887196352" duration="2357000" />
+      <workItem from="1600923311875" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="moved some files around for dedicated /php directory to keep things clean">
       <created>1594505782997</created>
@@ -367,17 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1600200472921</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed some strange bugs&#10;added joel ross album">
+      <created>1600889098701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600889098701</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28275000" />
+    <option name="totallyTimeSpent" value="29532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657952" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27124184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,7 +384,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.3292797" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.3292797" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,21 +412,52 @@
     <MESSAGE value="lots of updates" />
     <MESSAGE value="adding loading animations and changed iframes to only load ones that are visible instead of all on the site" />
     <MESSAGE value="more work on loading of website.&#10;delay loading of iframes until the last possible moment for faster page load time but added a loading gif" />
-    <option name="LAST_COMMIT_MESSAGE" value="more work on loading of website.&#10;delay loading of iframes until the last possible moment for faster page load time but added a loading gif" />
+    <MESSAGE value="fixed some strange bugs&#10;added joel ross album" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some strange bugs&#10;added joel ross album" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Sites/sp v10 php git/sp/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21068">
-          <caret line="916" column="4" selection-start-line="916" selection-start-column="4" selection-end-line="916" selection-end-column="79" />
+        <state relative-caret-position="102">
+          <caret line="244" column="10" lean-forward="true" selection-start-line="244" selection-start-column="10" selection-end-line="244" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/mail.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/music-drop.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/discography.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="152" column="89" selection-start-line="152" selection-start-column="89" selection-end-line="152" selection-end-column="89" />
+          <folding>
+            <element signature="e#511#1859#1#PHP" />
+            <element signature="e#1869#2672#1#PHP" />
+            <element signature="e#2697#3233#1#PHP" />
+            <element signature="e#3257#5988#1#PHP" />
+            <element signature="e#6022#7997#1#PHP" />
+            <element signature="e#8023#10618#1#PHP" />
+            <element signature="e#10638#11178#1#PHP" />
+            <element signature="e#11199#12268#1#PHP" />
+            <element signature="e#12293#13002#1#PHP" />
+            <element signature="e#13019#13775#1#PHP" />
+            <element signature="e#14498#15661#1#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/tile.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,61 +466,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sp.css">
+    <entry file="file://$PROJECT_DIR$/../../Sites/sp v10 php git/sp/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="21068">
+          <caret line="916" column="4" selection-start-line="916" selection-start-column="4" selection-end-line="916" selection-end-column="79" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/music-drop.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="462" column="42" lean-forward="true" selection-start-line="462" selection-start-column="42" selection-end-line="462" selection-end-column="42" />
-          <folding>
-            <element signature="e#20387#20804#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/discography.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="154" column="89" selection-start-line="154" selection-start-column="89" selection-end-line="154" selection-end-column="89" />
-          <folding>
-            <element signature="e#511#1859#1#PHP" />
-            <element signature="e#1869#2672#1#PHP" />
-            <element signature="e#2697#3233#1#PHP" />
-            <element signature="e#3257#5988#1#PHP" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="e#6022#7997#1#PHP" />
-            <element signature="e#8023#10618#1#PHP" />
-            <element signature="e#10638#11178#1#PHP" />
-            <element signature="e#11199#12268#1#PHP" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="e#12293#13002#1#PHP" />
-            <element signature="e#13019#13775#1#PHP" />
-            <element signature="e#14498#15661#1#PHP" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#16251#17202#1#PHP" />
-            <element signature="e#17218#18188#1#PHP" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="e#18216#18974#1#PHP" />
-            <element signature="e#18989#19557#1#PHP" />
-            <element signature="e#20246#21258#1#PHP" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="353">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
         </state>
       </provider>
     </entry>

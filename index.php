@@ -255,7 +255,16 @@
             Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
             I've been incredibly lucky to meet amazing mentors and friends every step of the way as I balanced
             classes at NYU, gigs in two cities 230 miles apart, and studio internships.
-            <br><br>
+            <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to allow WNYU89.1FM to
+            broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on that project
+            including borrowing the AoIP hardware from Sirius XM, dealing with NYU’s strict firewall around their
+            internal network, and avoiding the dreaded “dead air” while setting these systems up. And as of June 2020, I
+            have taken over the technical department of a local theatre, The RedHouse Arts Center. I use lighting and
+            sound design to help present stories on stage, and utilize multi-camera live streaming to present it to
+            virtual audiences. My latest challenge and exciting venture, has been exploring Dolby ATMOS technology. I
+            was recently hired to mix a documentary film, and dove into reading about ATMOS and its capabilities- and I
+            hope to next explore it’s capabilities mixing music.
+            <br>
             You can find me playing bass and engineering in both Syracuse and New York City for a myriad of
             artists across all genres
             <br><br>On the side, I design lighting for theatre. I've designed over 20 musicals, with a portfolio of
