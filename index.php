@@ -34,6 +34,12 @@
         <?php if($_GET['view'] == "s") {
             echo("<h3 class='loading-banner'>mobile version</h3>");
         }
+            if($contacted) {
+                echo("<h1 class="loading - banner">Your email has been sent!</h1>");
+        }
+            if($spam) {
+                echo("<h1 class="loading - banner">There was a problem sending your email, please try again!</h1>");
+        }
         ?>
     </div>
 </div>
