@@ -19,7 +19,7 @@
     //END RECAPTCHA
     $MessageTo = "contact@shaneth.com";
     $MessageSubject = "Website contact form entry";
-    $MessageContent = "You have received a form entry on your website. " . $name . " has written the following:\n \n " . $message . "\n \n Their email is: " . $email . "\n -Mailbot v1.0.1 by SP.";
+    $MessageContent = "You have received a form entry on your website. " . $name . " has written the following:\n \n " . $message . "\n \n Their email is: " . $email . "\n -Mailbot v1.2 (barely improved from 1.1) by SP.";
     $Headers = "From: shaneth.com: " . $email;
 
     if(!empty($name) && $captcha_success->success == TRUE) {
