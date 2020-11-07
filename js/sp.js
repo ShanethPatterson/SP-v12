@@ -57,7 +57,7 @@ function bodyLoaded(){
     $("iframe").each(function (index) {
         $(this).attr("data-src", $(this).attr("src"));
     });
-    loadiFrames();
+    
     setTimeout($(".cover").fadeOut(500), 500);
     setTimeout(function () {
         (document.getElementById("body-content").style.opacity = 1)
@@ -70,6 +70,7 @@ function bodyLoaded(){
     }, 1200);
     setTimeout(function () {
         $(".nav-sp-link").removeClass("background-black")
+        loadiFrames();
     }, 2000);
 
 }

@@ -2,7 +2,7 @@
 require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
-$featuredsectionshow = true;
+$featuredsectionshow = false;
 $featuredSectionSelection = 3;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
@@ -144,7 +144,7 @@ if ($_GET['view'] == "s") {
             <h1 class="text-center" id="videos">Featured Videos</h1>
             <div class="row text-center">
 
-                <div class="col-md-3">
+                <div class="col-md-3 ">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" data-src='https://www.youtube.com/embed/lzsb5VrNPQA'
                             frameborder='0'
@@ -154,7 +154,7 @@ if ($_GET['view'] == "s") {
                 </div>
                 <div class="col-md-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id='iframe1'
+                        <iframe class="embed-responsive-item" id=' iframe1'
                             data-src="https://www.youtube.com/embed/NN5J6UyEKTc" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -181,21 +181,27 @@ if ($_GET['view'] == "s") {
         <div id="live" class="container">
             <h1>Live Sound</h1>
             <ul>
-                <li>Sound Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA, Syracuse
+                <li>Sound Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
+                    Syracuse
                     NY. Multiple bands
-                    perform for an audience and on live radio broadcast. Live sound and backline provided by Patterson
+                    perform for an audience and on live radio broadcast. Live sound and backline provided by
+                    Patterson
                     Sound. <i>December 2016, 2017, 2018, 2019</i></li>
-                <li>System Tech for various point-source and line source deployments with sub alignment and delays,
+                <li>System Tech for various point-source and line source deployments with sub alignment and
+                    delays,
                     typically using DBX DriveRack or BSS Soundweb.
                 </li>
-                <li>Experience with Dante (certified level 3), MADI, AES50, Ultranet, and other audio protocols.</li>
+                <li>Experience with Dante (certified level 3), MADI, AES50, Ultranet, and other audio protocols.
+                </li>
                 <li>Engineer or Mixer for a variety of live events with crowd sizes 100-1400.</li>
-                <li>Sound Designer, FOH Mixer, Mic Tech and A2 for a variety of theatrical productions at various
+                <li>Sound Designer, FOH Mixer, Mic Tech and A2 for a variety of theatrical productions at
+                    various
                     theatres, from 85 seat
                     venues
                     through 1500 seat venues in Syracuse and NYC.
                 </li>
-                <li>Worked with several systems for venues of a variety of sizes that were also multitrack-recorded or
+                <li>Worked with several systems for venues of a variety of sizes that were also
+                    multitrack-recorded or
                     live
                     broadcast.
                 </li>
@@ -206,7 +212,8 @@ if ($_GET['view'] == "s") {
                 </div>
             </div>
             <h4>For System Rentals: </h4>
-            <a href="#" data-toggle="modal" data-target="#gearModal"><strong>Patterson Sound Gear List</strong></a><br>
+            <a href="#" data-toggle="modal" data-target="#gearModal"><strong>Patterson Sound Gear
+                    List</strong></a><br>
             <div class="row hidden_element gal">
                 <div class="col-sm-4">
                     <img class="img img-responsive" src="img/live-1.jpeg">
@@ -221,7 +228,8 @@ if ($_GET['view'] == "s") {
             <h1>Broadcast Audio:</h1>
             <ul>
                 <li>Engineer at WNYU 89.1FM</li>
-                <li>Led a project to design and deploy an Audio over IP solution to allow remote broadcasting while NYU
+                <li>Led a project to design and deploy an Audio over IP solution to allow remote broadcasting
+                    while NYU
                     shut down the building housing the WNYU radio station due to coronavirus.
                 </li>
             </ul>
@@ -234,7 +242,8 @@ if ($_GET['view'] == "s") {
                 <h1>Lighting Design:</h1>
 
 
-                <a href="#" data-toggle="modal" data-target="#lightModal">Click here for a list of credits</a>
+                <a href="#" data-toggle="modal" data-target="#lightModal">Click here for a list of
+                    credits</a>
                 <hr>
                 <div class="row gal">
                     <div class="col-sm-4">
@@ -248,40 +257,70 @@ if ($_GET['view'] == "s") {
                     </div>
                 </div>
                 <br>
-                <a href="https://shanepatterson.pixieset.com/lightingdesign/">Click here to view full gallery</a>
+                <a href="https://shanepatterson.pixieset.com/lightingdesign/">Click here to view full
+                    gallery</a>
             </div>
         </div>
         <!---------- ABOUT ------>
         <div class="container" id="about">
             <h1>About</h1>
-            <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking sessions in <a
-                    href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the folks at the
-                studio somehow trusted me behind the console recording projects for my friends. While in high school, I
+            <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking
+                sessions in
+                <a href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the
+                folks at the
+                studio somehow trusted me behind the console recording projects for my friends. While in
+                high
+                school, I
                 produced over a dozen projects for local artists, and after leaving for New
-                York City to study Music Technology & Computer Science at NYU, I continued working on everything I
-                could. By the time I turned 20, I had produced 3 SAMMY-Nominated projects.
-                The album I produced and co-wrote with Stephen Phillips, "big eyes & rosy cheeks", earned a "Best Pop
-                Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
-                I've been incredibly lucky to meet amazing mentors and friends every step of the way as I balanced
-                classes at NYU, gigs in two cities 230 miles apart, and studio internships.
-                <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to allow
-                WNYU89.1FM to
-                broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on that project,
-                borrowing the AoIP hardware from Sirius XM, dealing with NYU’s strict firewall around the
-                internal network, and avoiding dreaded “dead air” while setting these systems up. And as of June 2020, I
-                have starting working in the technical department of a local theatre, The RedHouse Arts Center, using
-                lighting and
-                sound design to help present stories on stage, then deploying multi-camera live streams to present it to
-                virtual audiences. My latest challenge and exciting venture, has been exploring Dolby ATMOS technology.
+                York City to study Music Technology & Computer Science at NYU, I continued working on
+                everything
                 I
-                was recently brought on to mix a film, and dove into the world ATMOS and its capabilities- and I
+                could. By the time I turned 20, I had produced 3 SAMMY-Nominated projects.
+                The album I produced and co-wrote with Stephen Phillips, "big eyes & rosy cheeks",
+                earned a
+                "Best Pop
+                Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
+                I've been incredibly lucky to meet amazing mentors and friends every step of the way as
+                I
+                balanced
+                classes at NYU, gigs in two cities 230 miles apart, and studio internships.
+                <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to
+                allow
+                WNYU89.1FM to
+                broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on
+                that
+                project,
+                borrowing the AoIP hardware from Sirius XM, dealing with NYU’s strict firewall around
+                the
+                internal network, and avoiding dreaded “dead air” while setting these systems up. And as
+                of June
+                2020, I
+                have starting working in the technical department of a local theatre, The RedHouse Arts
+                Center,
+                using
+                lighting and
+                sound design to help present stories on stage, then deploying multi-camera live streams
+                to
+                present it to
+                virtual audiences. My latest challenge and exciting venture, has been exploring Dolby
+                ATMOS
+                technology.
+                I
+                was recently brought on to mix a film, and dove into the world ATMOS and its
+                capabilities- and I
                 hope to next explore it’s capabilities mixing music.
-                <br><br>When I'm not working with audio, I design lighting for theatre. I've designed over 20 musicals,
+                <br><br>When I'm not working with audio, I design lighting for theatre. I've designed
+                over 20
+                musicals,
                 with a portfolio of
                 high school, community, regional, and off-broadway shows.<br><br>
 
-                At my core, I aim to solve problems for artists. I'm extremely project oriented; I prefer to start a
-                project with an artists first ideas, and finally let go when the audinces love it. I believe that
+                At my core, I aim to solve problems for artists. I'm extremely project oriented; I
+                prefer to
+                start a
+                project with an artists first ideas, and finally let go when the audinces love it. I
+                believe
+                that
                 magical
                 projects come
                 from
@@ -290,7 +329,9 @@ if ($_GET['view'] == "s") {
                 team, and the moments I get to spend
                 forming relationships with artists are the best part of what I do.
             </p>
-            <p>Contact me via the form below if you have any questions, or have a project in any stage I can help you
+            <p>Contact me via the form below if you have any questions, or have a project in any stage I
+                can
+                help you
                 with.</p>
         </div>
 
@@ -341,10 +382,14 @@ if ($_GET['view'] == "s") {
                         <h4 class="modal-title" id="lightModalLabel"></h4>
                     </div>
                     <div class="modal-body index">
-                        <p>Patterson Sound is capable of providing sound for all types of events needing sound
-                            reinforcement. Our systems can be configured to suit various venue sizes to cover up to 1000
+                        <p>Patterson Sound is capable of providing sound for all types of events needing
+                            sound
+                            reinforcement. Our systems can be configured to suit various venue sizes to
+                            cover up
+                            to 1000
                             people.
-                            Through our partners, we can also provide basic backline for some events.</p>
+                            Through our partners, we can also provide basic backline for some events.
+                        </p>
                         <h4>Soundcraft UI24r Wireless Mixer</h4>
                         <ul>
                             <li>2x ART S8 8-channel transformer isolated microphone splitter</li>
@@ -405,32 +450,45 @@ if ($_GET['view'] == "s") {
                     </div>
                     <div class="modal-body">
                         <h4>Off-Broadway</h4>
-                        <strong>Slingshot Theater Company: </strong> Tamra Wasserman Presents: This is Real, This is Me
+                        <strong>Slingshot Theater Company: </strong> Tamra Wasserman Presents: This is
+                        Real,
+                        This is Me
                         <hr>
                         <h4>Regional</h4>
 
-                        <strong>Baldwinsville Theatre Guild</strong>: Peter and The Starcatcher (<i>nominated for best
+                        <strong>Baldwinsville Theatre Guild</strong>: Peter and The Starcatcher
+                        (<i>nominated
+                            for best
                             lighting
                             design by the SALT awards</i>)
                         <br>
-                        <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The Starcatcher,
+                        <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The
+                        Starcatcher,
                         Peter/Wendy,
                         Alice In Wonderland, Into The Woods
                         <br>
                         <strong>Syracuse Stage</strong>: Random Acts
                         <hr>
                         <h4>High School</h4>
-                        <br><strong>Cicero North Syracuse High School</strong>: Legally Blonde, Little Shop Of Horrors,
+                        <br><strong>Cicero North Syracuse High School</strong>: Legally Blonde, Little
+                        Shop Of
+                        Horrors,
                         The
                         Addams Family, Nunsense, All Shook Up, Play On, Curtains!, Oklahoma
                         <br>
-                        <strong>Baldwinsville High School</strong>: Once Upon A Mattress, Princess Grace Of Knockerdown,
+                        <strong>Baldwinsville High School</strong>: Once Upon A Mattress, Princess Grace
+                        Of
+                        Knockerdown,
                         Little
                         Shop Of Horrors, Cafe Murder
                         <br>
-                        <strong>Baldwinsville Musical Players at The Carrier Theatre: </strong> Seussical The Musical
+                        <strong>Baldwinsville Musical Players at The Carrier Theatre: </strong>
+                        Seussical The
+                        Musical
                         <br>
-                        <strong>Baldwsinville Musical Players at The Jordan Elbridge HS Theatre: </strong>: Irving
+                        <strong>Baldwsinville Musical Players at The Jordan Elbridge HS Theatre:
+                        </strong>:
+                        Irving
                         Berlin's
                         White Christmas
                         <br>
