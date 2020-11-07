@@ -1,5 +1,5 @@
 <?php
-    $discography = [//0: Title
+$discography = [ //0: Title
         //1: Byline
         //2: Role
         //3: Genre
@@ -34,10 +34,10 @@ Cello by Sean Penzo<br>
 Music Video directed and produced by Kelly Drake<br>
 Filmed and Edited by Shane Patterson
 ", "2020", ["https://youtu.be/lzsb5VrNPQA", "https://open.spotify.com/artist/0ywpYc2SEKDp64ajlGMN3l?si=tHPnCcQMRi6Wuiz2o0PDJw", "https://music.apple.com/us/artist/isa-bruder/1518952368", "", ""], "<iframe class=\"embed-responsive-item\" id='iframe0' data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><hr>", "Debuted exclusively on GIRL GANG NYC"], //Close To Her
-        ["Estēe Lauder", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Lauder.png", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
+        ["Estēe Lauder", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Lauder.jpeg", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
             <A href=\"http://subcat.net\">Subcat Studios</A><br>", "2018", ["https://youtu.be/SUHJRadjgvM", "", "", "", ""], "<iframe width=\"420\" height=\"237\" data-src=\"https://www.youtube.com/embed/SUHJRadjgvM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                    allowfullscreen></iframe>", ""],//Estee Lauder
+                    allowfullscreen></iframe>", ""], //Estee Lauder
         ["big eyes & rosy cheeks", "6 Song Album by Stephen Phillips", "Producer &amp; Writer", "Pop", "img/albums/phillips.jpg", "
     All songs written and performed by Stephen Phillips<br>
 <strong> Produced and co-written by Shane Patterson</strong><br>
@@ -71,7 +71,7 @@ Stage Management: Kelly Drake<br>
 Guitar Tech: Neil Minet<br>
 FOH Manager: Stephfond Brunson<br>
 Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 28th, 2019<br>
-    ", "2019", ["https://www.youtube.com/channel/UCTWgM11csi-ciURz_wHosmg/featured", "https://open.spotify.com/album/7krwkXAeMH65Smjn2m5ZAz", "https://music.apple.com/us/album/big-eyes-rosy-cheeks-ep/1467817283", "https://tidal.com/album/110980436", ""], "<iframe id='iframe0' allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" data-src=\"https://embed.music.apple.com/us/album/big-eyes-rosy-cheeks-ep/1467817283\"></iframe><hr><iframe id='iframe1' data-src=\"https://www.youtube.com/embed/NN5J6UyEKTc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", "Winner of the 2019 SAMMY award for Best Pop Recording"],//big eyes & rosy cheeks
+    ", "2019", ["https://www.youtube.com/channel/UCTWgM11csi-ciURz_wHosmg/featured", "https://open.spotify.com/album/7krwkXAeMH65Smjn2m5ZAz", "https://music.apple.com/us/album/big-eyes-rosy-cheeks-ep/1467817283", "https://tidal.com/album/110980436", ""], "<iframe id='iframe0' allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" data-src=\"https://embed.music.apple.com/us/album/big-eyes-rosy-cheeks-ep/1467817283\"></iframe><hr><iframe id='iframe1' data-src=\"https://www.youtube.com/embed/NN5J6UyEKTc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", "Winner of the 2019 SAMMY award for Best Pop Recording"], //big eyes & rosy cheeks
         ["Shades Of Blue", "9 Song Album by <a href=\"http://neilminetandthenightflyers.com\">Neil Minet &amp the Night Flyers</a>", "Producer", "Blues/Funk", "img/albums/NeilMinet_ShadesOfBlue.jpg", "<strong>Produced
             by Neil Minet and Shane Patterson</strong><br>Neil Minet: Guitar and Vocals<br><strong>Shane Patterson: Bass, Engineering and
             Mixing</strong><br>Byron \"Kidd\" Cage: Drums<br>Jose Alvarez: Guitar on \"Làgrimas De La Luna\"<br>Tom Townsley:
@@ -87,7 +87,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
             <br>
             <b>Featured Track: \"Key To Your Door\"</b><br><i>Track 8</i><br>
             <iframe id='iframe0' data-src=\"https://open.spotify.com/embed/track/0LDQWjwonaveTLhjmCL2kt\" width=\"300\" height=\"80\"
-                    frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>", "Nominated for a 2018 <a href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"],//Shades Of Blue
+                    frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>", "Nominated for a 2018 <a href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"], //Shades Of Blue
         ["Folklore", "10 Song Album by <a href=\"http://rhiannonpayne.com\">Rhiannon Payne</a>", "Producer", "Folk", "img/albums/Folklore.jpeg", "All songs
             written by Rhiannon Payne<br><strong>All Songs Produced and Mixed by Shane Patterson</strong><br>Co-Produced by <a
                     href=\"http://toddhobin.com\">Todd Hobin</a>
@@ -111,11 +111,11 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
                 <iframe id='iframe2' data-src=\"https://www.youtube.com/embed/sizNZ2UEy2c\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
                 
                 ", "Nominated for a 2018 <a
-                        href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"],//Folklore
-        ["History Channel", "Commercial Voiceover", "Engineer", "Ad", "img/albums/History.png", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
+                        href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"], //Folklore
+        ["History Channel", "Commercial Voiceover", "Engineer", "Ad", "img/albums/History.jpeg", "<strong>Engineered by Shane Patterson</strong><br>Recorded at
             <A href=\"http://hobinstudios.com\">Hobin Studios</A><br><iframe width=\"420\" height=\"237\" src=\"https://www.youtube.com/embed/MtojqaERcAE\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                    allowfullscreen></iframe>", "2018", ["https://youtu.be/MtojqaERcAE", "", "", "", ""], "", ""],//History
+                    allowfullscreen></iframe>", "2018", ["https://youtu.be/MtojqaERcAE", "", "", "", ""], "", ""], //History
 
 
         ["Low Overhead", "EP by Brett Altman", "Engineer & Mixer", "Acoustic Pop", "img/albums/lowoverhead.jpg", "Written and Performed by Brett Altman<br>
@@ -124,7 +124,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
          <strong>Engineered and Mixed by Shane Patterson</strong><br>
          Mastered by Nicholas Ciavatta<br>
          Recorded at Transmitter Park Studios", "2020", ["https://youtu.be/E7boJeyoTB8", "https://open.spotify.com/album/6csVoUqzaYRUhilcqwZf5F", "https://geo.music.apple.com/us/album/low-overhead-ep-acoustic/1525898258?mt=1&app=music", "", ""], "<iframe src=\"https://embed.music.apple.com/us/album/low-overhead-ep-acoustic/1525898258?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ls=1\" height=\"450px\" frameborder=\"0\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"autoplay *; encrypted-media *;\" style=\"width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;\"></iframe>", "Debuted on Pop Matters"], //Low Overhead
-        ["5:17", "Single by Stephen Phillips", "Producer", "Pop", "img/albums/517.png", "Written and Performed by Stephen Phillips<br>
+        ["5:17", "Single by Stephen Phillips", "Producer", "Pop", "img/albums/517.jpeg", "Written and Performed by Stephen Phillips<br>
          <strong>Produced and Mixed by Shane Patterson</strong><br>
          Mastered by Steve Brown<br>
          Guitar by David Millen<br>
@@ -134,7 +134,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
         <br>Video by <a href='http://rabvisuals.com'>Robert Bryant</a><br>Additional Mixing: Steve Brown
         
 ", "2020", ["https://youtu.be/LwyCdrGJNtE", "https://open.spotify.com/track/3oQOAC9UhpuO1oteQ1hVnn?si=vV-4tPAWTrCZswmKXCrgEg", "https://music.apple.com/us/album/black-rose-single/1495314894", "https://tidal.com/browse/track/128189077", ""], "<iframe src=\"https://www.youtube.com/embed/LwyCdrGJNtE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //BlackRose
-        ["Time For Me", "Single by Gary Carpentier", "Mastering Engineer", "Pop", "img/albums/timeforme.jpg", "Written and Performed by Gary Carpentier and Stephen Brown<br>Produced, Engineered and Mixed by Stephen Brown at <a href='http://subcat.net'>Subcat Recording Studios</a><br><Strong>Mastered by Shane Patterson</Strong>", "2020", ["https://youtu.be/FY8IFBBV_Pg", "https://open.spotify.com/track/4LtSOOUeHQwNdo3VzRy7Fa", "https://open.spotify.com/track/4LtSOOUeHQwNdo3VzRy7Fa", "", ""], "<iframe  src=\"https://www.youtube.com/embed/FY8IFBBV_Pg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""],//Time For Me
+        ["Time For Me", "Single by Gary Carpentier", "Mastering Engineer", "Pop", "img/albums/timeforme.jpg", "Written and Performed by Gary Carpentier and Stephen Brown<br>Produced, Engineered and Mixed by Stephen Brown at <a href='http://subcat.net'>Subcat Recording Studios</a><br><Strong>Mastered by Shane Patterson</Strong>", "2020", ["https://youtu.be/FY8IFBBV_Pg", "https://open.spotify.com/track/4LtSOOUeHQwNdo3VzRy7Fa", "https://open.spotify.com/track/4LtSOOUeHQwNdo3VzRy7Fa", "", ""], "<iframe  src=\"https://www.youtube.com/embed/FY8IFBBV_Pg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //Time For Me
         ["She Is A Song", "10 Song Album by <a href=\"https://www.facebook.com/kylemichomusic/\">Kyle Micho</a>", "Mixer", "Folk Rock", "img/albums/SIAS.jpg", "Written
             and Performed By Kyle Micho<br>Drums by Nate Piazza<br>Engineered by Robert Schepis
             <br><strong>Mixed by Shane Patterson</strong><br>Mix Assistants: Jalen Edington and Hank Borders<br>Recorded at
@@ -142,7 +142,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
                 Recording Studio</A>", "2018", ["https://www.youtube.com/watch?v=j6acKLKqAQM&list=PLzd_e2XeUXQ2CYvwxBDv9Us-t5lByVJhc", "https://open.spotify.com/album/5C3M9AHCLVc842hMBmSkyq", "https://geo.itunes.apple.com/us/album/she-is-a-song/1433876784?mt=1&app=music", "https://tidal.com/album/93975923", "https://kylemicho.bandcamp.com/album/she-is-a-song"], "<b>Featured Track: \"I Guess\"</b><br><i>Track 6</i><br>
             <iframe data-src=\"https://www.youtube.com/embed/KWdFmOojxAM\" frameborder=\"0\"
                     allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                    allowfullscreen></iframe>", ""],//SIAS
+                    allowfullscreen></iframe>", ""], //SIAS
         ["Who Are You", "Album by Joel Ross", "Asst. Engineer", "Jazz", "img/albums/joelross.jpg", "Produced by Joel Ross and Walter Smith III<br>
         Composed by Joel Ross<br>
         Alto Saxophone by Immanuel Wilkins<br>
@@ -153,19 +153,19 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
         <strong>Assistant Engineer: Diego Rodoni, Jonathan Hill, Shane Patterson</strong><br><br>
         Released October 23, 2020", "2020", ["", "", "", "", ""], "<div style=\"position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://embed.tidal.com/tracks/152667488?layout=gridify\" frameborder=\"0\" allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;\"></iframe></div>", "Released on Blue Note Records"],
 
-        ["Still Into You", "Cover by Isa Bruder", "Producer", "Pop", "img/albums/StillIntoYou.png", "Recorded by Isa Bruder<br><strong>Produced and Mixed by Shane Patterson</strong><br>Guitar by Kate Gallagher<br>Drums by Nate Piazza<br><br>Recorded in the basement of NYU Weinstien Residence Hall", "2018", ["https://youtu.be/mzIJ_2w1m3k", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/mzIJ_2w1m3k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //still into you
+        ["Still Into You", "Cover by Isa Bruder", "Producer", "Pop", "img/albums/StillIntoYou.jpeg", "Recorded by Isa Bruder<br><strong>Produced and Mixed by Shane Patterson</strong><br>Guitar by Kate Gallagher<br>Drums by Nate Piazza<br><br>Recorded in the basement of NYU Weinstien Residence Hall", "2018", ["https://youtu.be/mzIJ_2w1m3k", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/mzIJ_2w1m3k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //still into you
         ["Nineteen", "Single by Stephen Phillips", "Producer", "Pop", "img/albums/StephenPhillips_Nineteen.jpg", "Written and Performed by Stephen Phillips<br>
          <strong>Produced and Mixed by Shane Patterson</strong><br>
          Mastered by Steve Brown<br>
          Guitar by David Millen<br>", "2020", ["https://www.youtube.com/watch?v=ugtb7bDDqe0", "https://open.spotify.com/album/50GfWrycmZyJyMtBghTDGF?si=AeuuDBvjQECKoZ_veY21eA", "http://itunes.apple.com/album/id/1524767102", "", ""], "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ugtb7bDDqe0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", "Debuted on 95X 95.7FM"],
-        ["Churches And Graveyards", "5 Song EP by Churches And Graveyards", "Producer", "Rock", "img/albums/ChurchesAndGraveYards.JPG", "<h3>Songs 2-6</h3><strong>Produced, Engineered and Mixed by Shane Patterson</strong><br>All songs written and performed by Churches and Graveyards<br>Mix Assistant: Wesley Yu<br>Recorded at <a href='http://subcat.net'>Subcat Studios</a> and <a href='http://hobinstudios.com'>Hobin Studios</a><hr>Song 1 produced and mixed at <a href='http://moresound315.com'> More Sound Recording Studios</a>.
+        ["Churches And Graveyards", "5 Song EP by Churches And Graveyards", "Producer", "Rock", "img/albums/ChurchesAndGraveYards.jpeg", "<h3>Songs 2-6</h3><strong>Produced, Engineered and Mixed by Shane Patterson</strong><br>All songs written and performed by Churches and Graveyards<br>Mix Assistant: Wesley Yu<br>Recorded at <a href='http://subcat.net'>Subcat Studios</a> and <a href='http://hobinstudios.com'>Hobin Studios</a><hr>Song 1 produced and mixed at <a href='http://moresound315.com'> More Sound Recording Studios</a>.
 ", "2019", ["https://www.youtube.com/channel/UCQQXb7Iy7uWauBsmAOZSzMg", "https://open.spotify.com/album/1YOAINz6oSOuKlx1FQxHbw?si=UU5QSSv4QNqzPXMJDIRgXA", "https://music.apple.com/us/album/churches-and-graveyards-ep/1493953315", "", ""], "<iframe src=\"https://www.youtube.com/embed/1EpRu2d1_hY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //CAG
         ["Burlap Backwards", "2-Track Single by Renny and the Simones", "Engineer &amp; Mixer", "Rock", "img/albums/RATS.jpg", "Written
             and performed by Renny and The Simones<br><strong>Engineered and Mixed by Shane Patterson</strong><br>Recorded at
             <A href=\"http://hobinstudios.com\">Hobin Studios</A>", "2017", ["", "https://open.spotify.com/album/5C3M9AHCLVc842hMBmSkyq", "https://geo.itunes.apple.com/us/album/burlap-backwards-single/id1275825546?mt=1&app=music", "https://tidal.com/album/77975893", "https://rennyandthesimones.bandcamp.com/releases"], "<iframe style=\"border: 0; width: 400px; height: 208px;\"
                     src=\"https://bandcamp.com/EmbeddedPlayer/album=3313686972/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/\"
                     seamless><a href=\"http://rennyandthesimones.bandcamp.com/album/burlap-backwards\">Burlap Backwards by
-                    Renny &amp; the Simones</a></iframe>", ""],//Burlap Backwards
+                    Renny &amp; the Simones</a></iframe>", ""], //Burlap Backwards
         ["When January Comes", "Single by <a href=\"https://soundcloud.com/andreaniane\">Andrea Niane</a>", "Producer", "Singer Songwriter", "img/albums/Niane.jpg", "
     Music, Lyrics and Vocals: Andrea Niane Ettestol<br>
     <strong>Mixed, Engineered, Bass: Shane Patterson</strong><br>
@@ -173,11 +173,11 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
     Drums: Maxwell Henry<br><Br>Recorded in a private studio located in Manhattan, New York
     ", "2019", ["", "", "", "", ""], "
 <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/601053423&color=%23543c24&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>
-", ""],//WJC
+", ""], //WJC
         ["Break It Down", "Live session by Brett Altman", "Mixer", "Live Trio", "img/albums/Altman.jpg", "Filmed
                 by Ryan Canney at Riverbank Creative<br>Guitar and Vocals by Brett Altman<br>Keyboard by Max Perkins<br>Saxophone
-                by Brian Seltzer<br><strong>Mixed by Shane Patterson</strong>", "2018", ["https://youtu.be/Js8Xn5c_3ps", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/Js8Xn5c_3ps\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""],//Break It Down
-        ["Home For The Holiday", "Single by Julia Goodwin", "Engineer", "Holiday", "img/albums/goodwin_holiday.jpg", "Performed by Julia Goodwin<br>Engineered and Mixed by Brett Hobin<br>Cello By Sean Penzo<br><strong>Cello Engineer: Shane Patterson</strong>", "2019", ["https://www.youtube.com/watch?v=06emElUxmi8", "https://open.spotify.com/album/2StzVJgFOdaJu1118REcOl", "https://music.apple.com/us/album/home-for-the-holiday-single/1484184563", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/06emElUxmi8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""],//Holiday
+                by Brian Seltzer<br><strong>Mixed by Shane Patterson</strong>", "2018", ["https://youtu.be/Js8Xn5c_3ps", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/Js8Xn5c_3ps\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //Break It Down
+        ["Home For The Holiday", "Single by Julia Goodwin", "Engineer", "Holiday", "img/albums/goodwin_holiday.jpg", "Performed by Julia Goodwin<br>Engineered and Mixed by Brett Hobin<br>Cello By Sean Penzo<br><strong>Cello Engineer: Shane Patterson</strong>", "2019", ["https://www.youtube.com/watch?v=06emElUxmi8", "https://open.spotify.com/album/2StzVJgFOdaJu1118REcOl", "https://music.apple.com/us/album/home-for-the-holiday-single/1484184563", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/06emElUxmi8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //Holiday
         ["The Writer", "Single by Julia Grippe", "Producer", "Pop", "img/albums/Grippe.jpg", "Written
                     By Julia Grippe<br><strong>Production, Mixing and Additional Instrumentation: Shane Patterson</strong><br>Drums: Nate
                     Piazza<br>Guitar: David Millen<br>Viola: Kaylee Lammers<br>Cello: Sean Penzo<br>Mastered by Curtis
@@ -185,7 +185,7 @@ Event at <a href='http://theredhouse.org'>The Redhouse Arts Center</a> on June 2
                             href=\"http://hobinstudios.com\">Hobin Studios</A> and <A href=\"http://subcatstudios.com\">Subcat
                         Studios</A>", "2015", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281589213&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
-           ", ""],//The Writer
+           ", ""], //The Writer
 
 
         ["Black Ou Noir", "Radio Drama", "Composer", "Radio Drama", "img/albums/BlackOuNoir.png", "Produced by Kelly Drake for <a href='http://wnyu.org'>WNYU 89.1 FM</a><br>
@@ -199,7 +199,7 @@ Drums by Ian Lange-McPherson<br>Trumpet by Sophie Manoloff<br>Tap Dancing by  Is
                             href=\"http://hobinstudios.com\">Hobin Studios</A> and <a href=\"http://subcatstudios.com\">Subcat
                         Studios</a>", "2016", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300651553&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
-            ", "Won NYSSMA Award for outstanding Electronic Music Composition (2016)"],//Dichotomy
+            ", "Won NYSSMA Award for outstanding Electronic Music Composition (2016)"], //Dichotomy
         ["Persevere & WTFAI", "Singles by Raynier", "Producer", "Rap", "img/albums/Raynier.jpg", "<strong>Explicit</strong><br><i>Written
                     and Performed By Raynier<br><strong>Beat Produced by Shane Patterson and David Millen
                     <br>Mixed by Shane Patterson</strong></i><br>Recorded at
@@ -208,8 +208,8 @@ Drums by Ian Lange-McPherson<br>Trumpet by Sophie Manoloff<br>Tap Dancing by  Is
           <br><h3>\"WTFAI\"</h3><iframe id='iframe1' width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/388976298&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true\"></iframe>
            
-          ", ""],//Persevere
-        ["Nightingale", "Live Cover by Isa Bruder", "Producer", "Live Session", "img/albums/Bruder.png", "\"Nightingale\"<br>
+          ", ""], //Persevere
+        ["Nightingale", "Live Cover by Isa Bruder", "Producer", "Live Session", "img/albums/Bruder.jpeg", "\"Nightingale\"<br>
 by Demi Lovato<br>
 cover by Isa Bruder<br>
 <br>
@@ -228,24 +228,22 @@ Arranged by Shane Patterson and Sean Penzo<br>
 Video by Robert Bryant<br>
 <strong>Engineered and Mixed by Shane Patterson in Subcat Studios, Syracuse NY</strong><br><br>
 
-\"Nightingale\" written by Demi Lovato, Anne Preven, Matt Rad, Felicia Barton", "2019", ["https://youtu.be/GZvQSXFoDCQ", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/GZvQSXFoDCQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""],//Nightingale
+\"Nightingale\" written by Demi Lovato, Anne Preven, Matt Rad, Felicia Barton", "2019", ["https://youtu.be/GZvQSXFoDCQ", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/GZvQSXFoDCQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //Nightingale
         ["Sweet Potatoes", "Single by Eli and Tiny Dave", "Producer", "Rap", "img/albums/dichotomy.jpg", "Written and Performed by Eli and Tiny Dave.<br>Additional Vocals: Ryan \"Raynier\" Williams<br><strong>Produced and Engineered by Shane Patterson</strong>", "2017", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/384746861&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>", ""], //Sweet Potatoes
         ["Dicks Sporting Goods", "Commercial Voiceover", "Engineer", "Ad", "img/albums/Dicks.png", "<br>Recorded at
-            <A href=\"http://subcat.net\">Subcat Studios</A><br><div style=\"position:relative;width:100%;padding-top:56.25%;padding-bottom:40px;\"><iframe style=\"position:absolute;top:0;right:0;left:0;bottom:0;width:100%;height:100%;\" src=\"https://www.ispot.tv/share/d5Zs\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"\"></iframe></div>", "2018", ["", "", "", "", ""], "", ""],//Dicks
+            <A href=\"http://subcat.net\">Subcat Studios</A><br><div style=\"position:relative;width:100%;padding-top:56.25%;padding-bottom:40px;\"><iframe style=\"position:absolute;top:0;right:0;left:0;bottom:0;width:100%;height:100%;\" src=\"https://www.ispot.tv/share/d5Zs\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"\"></iframe></div>", "2018", ["", "", "", "", ""], "", ""], //Dicks
 
         ["Bloom", "Piano Solo", "Composer", "Piano Solo", "img/albums/bloom.jpg", "Composed and Performed by Shane Patterson<br>Recorded by Steve Brown at <a href=\"subcat.net\">Subcat
                         Studios</a>", "2016", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300372915&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
-           ", ""],//Bloom
+           ", ""], //Bloom
         ["The Collaterals EP", "Album by The Collaterals", "Engineer", "Classic Rock", "img/albums/Collaterals.jpg", "Written and performed by The
                     Collaterals<br><strong>Engineered and Mixed by Shane Patterson</strong>", "2016", ["", "https://open.spotify.com/track/6GzjHsGNH8tZpTHvKnTV0m", "https://geo.itunes.apple.com/us/album/wilting/id1136474183?i=1136474251&mt=1&app=music", "", ""], "<iframe width=\"100%\" height=\"150\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://www.reverbnation.com/widget_code/html_widget/artist_5125341?widget_id=55&pwc[song_ids]=25832933&context_type=song&pwc[size]=small\"
-                        style=\"width:0px;min-width:100%;max-width:100%;\"></iframe>", ""],//The Collaterals
+                        style=\"width:0px;min-width:100%;max-width:100%;\"></iframe>", ""], //The Collaterals
         ["Intuition", "Composition", "Composer", "Electronic", "img/albums/intuition.jpg", "Written
                     and Produced By Shane Patterson<br>Guitar: David Millen<br>Cello: Sean Penzo", "2015", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215093495&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
           ", "Won NYSSMA Award
-                for outstanding Electronic Music Composition (2015)"]//Intuition
-    ]
-
-?>
+                for outstanding Electronic Music Composition (2015)"] //Intuition
+];

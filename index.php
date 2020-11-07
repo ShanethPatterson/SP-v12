@@ -68,7 +68,7 @@ if ($_GET['view'] == "s") {
                 <a href="#live">Live Sound</a>
             </div>
             <div class="col-md-2 nav-sp-link">
-                <a href="#lighting">Lighting Design</a>
+                <a href="#lighting">Lighting</a>
             </div>
             <div class="col-md-2 nav-sp-link">
                 <a href="#about">About</a>
@@ -80,27 +80,28 @@ if ($_GET['view'] == "s") {
         <!-----End Navbar--->
         <!------Featured Section--->
         <?php if ($featuredsectionshow) : ?>
-            <div class="jumbotron jumbotron-fluid d-none d-lg-block" id="featured-jumbotron">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <h1>Featured Project:</h1>
-                        <h2><?php echo ($discography[$featuredSectionSelection][0]); ?></h2>
-                        <h3><?php echo ($discography[$featuredSectionSelection][1]); ?></h3>
-                        <a href="#target" onclick="showOnlyMusic(<?php echo ($featuredSectionSelection . "," . floor($featuredSectionSelection / $numAcross)); ?>);">More
-                            Information</a>
-                    </div>
-                    <div class="col-lg-5 embed-responsive">
-                        <?php echo (strstr($discography[$featuredSectionSelection][8], "<hr>", true)); ?>
-                    </div>
-                    <div class="col-lg-3 hidden-sm">
-                        <?php echo ("
+        <div class="jumbotron jumbotron-fluid d-none d-lg-block" id="featured-jumbotron">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1>Featured Project:</h1>
+                    <h2><?php echo ($discography[$featuredSectionSelection][0]); ?></h2>
+                    <h3><?php echo ($discography[$featuredSectionSelection][1]); ?></h3>
+                    <a href="#target"
+                        onclick="showOnlyMusic(<?php echo ($featuredSectionSelection . "," . floor($featuredSectionSelection / $numAcross)); ?>);">More
+                        Information</a>
+                </div>
+                <div class="col-lg-5 embed-responsive">
+                    <?php echo (strstr($discography[$featuredSectionSelection][8], "<hr>", true)); ?>
+                </div>
+                <div class="col-lg-3 hidden-sm">
+                    <?php echo ("
             <img src=\" " . $discography[$featuredSectionSelection][4] . " \" class=\"img-fluid hvrbox-layer_bottom d-sm-none d-md-block \">
             <span class=\"badge\">" . $discography[$featuredSectionSelection][2] . "</span> <span class=\"badge\">" . $discography[$featuredSectionSelection][3] . "</span>
             <span class='badge label-year'>" . $discography[$featuredSectionSelection][6] . "</span>
         "); ?>
-                    </div>
                 </div>
             </div>
+        </div>
         <?php endif; ?>
         <!----End Featured Section--->
         <!----Album Art Grid--------->
@@ -145,22 +146,34 @@ if ($_GET['view'] == "s") {
 
                 <div class="col-md-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src='https://www.youtube.com/embed/lzsb5VrNPQA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" data-src='https://www.youtube.com/embed/lzsb5VrNPQA'
+                            frameborder='0'
+                            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id='iframe1' data-src="https://www.youtube.com/embed/NN5J6UyEKTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" id='iframe1'
+                            data-src="https://www.youtube.com/embed/NN5J6UyEKTc" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/GZvQSXFoDCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/GZvQSXFoDCQ"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" data-src="https://www.youtube.com/embed/vQZwiWZSvrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" data-src="https://www.youtube.com/embed/vQZwiWZSvrY"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -241,31 +254,42 @@ if ($_GET['view'] == "s") {
         <!---------- ABOUT ------>
         <div class="container" id="about">
             <h1>About</h1>
-            <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking sessions in <a href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the folks at the
+            <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking sessions in <a
+                    href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the folks at the
                 studio somehow trusted me behind the console recording projects for my friends. While in high school, I
                 produced over a dozen projects for local artists, and after leaving for New
                 York City to study Music Technology & Computer Science at NYU, I continued working on everything I
-                could. By the time I turned 20, I had produced 3 SAMMY-Nominated Projects.
-                The album I produced and co-wrote for Stephen Phillips, "big eyes & rosy cheeks", earned a "Best Pop
+                could. By the time I turned 20, I had produced 3 SAMMY-Nominated projects.
+                The album I produced and co-wrote with Stephen Phillips, "big eyes & rosy cheeks", earned a "Best Pop
                 Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
                 I've been incredibly lucky to meet amazing mentors and friends every step of the way as I balanced
                 classes at NYU, gigs in two cities 230 miles apart, and studio internships.
-                <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to allow WNYU89.1FM to
+                <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to allow
+                WNYU89.1FM to
                 broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on that project,
                 borrowing the AoIP hardware from Sirius XM, dealing with NYU’s strict firewall around the
                 internal network, and avoiding dreaded “dead air” while setting these systems up. And as of June 2020, I
-                have starting working in the technical department of a local theatre, The RedHouse Arts Center, using lighting and
+                have starting working in the technical department of a local theatre, The RedHouse Arts Center, using
+                lighting and
                 sound design to help present stories on stage, then deploying multi-camera live streams to present it to
-                virtual audiences. My latest challenge and exciting venture, has been exploring Dolby ATMOS technology. I
+                virtual audiences. My latest challenge and exciting venture, has been exploring Dolby ATMOS technology.
+                I
                 was recently brought on to mix a film, and dove into the world ATMOS and its capabilities- and I
                 hope to next explore it’s capabilities mixing music.
-                <br><br>On the side, I design lighting for theatre. I've designed over 20 musicals, with a portfolio of
+                <br><br>When I'm not working with audio, I design lighting for theatre. I've designed over 20 musicals,
+                with a portfolio of
                 high school, community, regional, and off-broadway shows.<br><br>
 
-                At my core, I aim to solve problems for artists. I'm extremely project oriented; I prefer to start a project with an artists first demos, and finish when
-                the masters are ready to go out to distribution. I believe that magical projects come from a dedicated
+                At my core, I aim to solve problems for artists. I'm extremely project oriented; I prefer to start a
+                project with an artists first ideas, and finally let go when the audinces love it. I believe that
+                magical
+                projects come
+                from
+                a
+                dedicated
                 team, and the moments I get to spend
-                forming relationships with artists are the best part of what I do. </p>
+                forming relationships with artists are the best part of what I do.
+            </p>
             <p>Contact me via the form below if you have any questions, or have a project in any stage I can help you
                 with.</p>
         </div>
@@ -277,30 +301,30 @@ if ($_GET['view'] == "s") {
                 <br>
                 <span class="badge badge-info">Call/Text</span> 929.265.0073<br>
                 <a href="http://shaneth.com">Learn More About Me at Shaneth.com</a>
-                <form method="post" action="<?php $_PHP_SELF ?>">
-                    <div class="form-group">
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
-                            </div>
-                            <div class="col">
-                                <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
-                            </div>
+            <form method="post" action="<?php $_PHP_SELF ?>">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control bb" rows="3" name="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control bb" rows="3" name="message"></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
+                <div class="row">
+                    <div class="col-sm-3" id="submit">
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                    <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
-                    <div class="row">
-                        <div class="col-sm-6" id="submit">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                        <div class="col-sm-6">
-                            <button type="reset" class="btn">Reset</button>
-                        </div>
+                    <div class="col-sm-9">
+                        <button type="reset" class="btn">Reset</button>
                     </div>
-                </form>
+                </div>
+            </form>
 
         </div>
 
@@ -311,7 +335,8 @@ if ($_GET['view'] == "s") {
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
                         </button>
                         <h4 class="modal-title" id="lightModalLabel"></h4>
                     </div>
@@ -373,7 +398,8 @@ if ($_GET['view'] == "s") {
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
                         </button>
                         <h4 class="modal-title" id="lightModalLabel">Lighting</h4>
                     </div>
@@ -420,15 +446,19 @@ if ($_GET['view'] == "s") {
         <!---------Javascript------>
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
 
 
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="js/smooth-scroll.polyfills.min.js"></script>
         <script src="js/bootstrap-detect-breakpoint.js"></script>
         <script language="javascript">
-            <?php if ($_GET['view'] != "s") {
+        <?php if ($_GET['view'] != "s") {
                 echo ("
     if(bootstrapDetectBreakpoint().index<=1){
     window.location.href=\"?view=s\";
@@ -451,8 +481,8 @@ if ($_GET['view'] == "s") {
         </script>
         <script src="js/sp.js"></script>
         <script language="javascript">
-            numMusic = (<?php echo (count($discography)); ?>);
-            <?php
+        numMusic = (<?php echo (count($discography)); ?>);
+        <?php
             if (isset($_GET['project'])) {
                 echo ("
                     setTimeout(function () {
