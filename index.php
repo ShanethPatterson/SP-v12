@@ -2,7 +2,7 @@
 require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
-$featuredsectionshow = false;
+$featuredsectionshow = true;
 $featuredSectionSelection = 3;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
@@ -465,7 +465,7 @@ if ($_GET['view'] == "s") {
                         <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The
                         Starcatcher,
                         Peter/Wendy,
-                        Alice In Wonderland, Into The Woods
+                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A Wonderful Life
                         <br>
                         <strong>Syracuse Stage</strong>: Random Acts
                         <hr>
@@ -474,7 +474,7 @@ if ($_GET['view'] == "s") {
                         Shop Of
                         Horrors,
                         The
-                        Addams Family, Nunsense, All Shook Up, Play On, Curtains!, Oklahoma
+                        Addams Family, Nunsense, All Shook Up, Play On, Curtains!, Oklahoma, Tuck Everlasting
                         <br>
                         <strong>Baldwinsville High School</strong>: Once Upon A Mattress, Princess Grace
                         Of
@@ -482,11 +482,11 @@ if ($_GET['view'] == "s") {
                         Little
                         Shop Of Horrors, Cafe Murder
                         <br>
-                        <strong>Baldwinsville Musical Players at The Carrier Theatre: </strong>
+                        <strong>Baldwinsville Musical Players at The Oncenter Carrier Theatre: </strong>
                         Seussical The
                         Musical
                         <br>
-                        <strong>Baldwsinville Musical Players at The Jordan Elbridge HS Theatre:
+                        <strong>Baldwsinville Musical Players at The Jordan Elbridge Theatre:
                         </strong>:
                         Irving
                         Berlin's
