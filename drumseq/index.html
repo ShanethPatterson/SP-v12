@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <script></script>
+    <!---Required tags----->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!----- / ------------->
+    <!------Fav Icons------>
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <!------End Icons------>
+    <!------Stylesheets---->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/sp.css">
+    <!----End Stylesheets-->
+    <title>Shane Patterson</title>
+</head>
+
+<body>
+<div class="introwrapper">
+    <div class="intro">
+        <div class="logo">
+        </div>
+        <div class="scroll">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>
+    </div>
+</div>
+
+<div class="body-content" id="body-content">
+<div class="container" id="about">
+    <div class="row">
+        <div class="col-sm-8"><br>
+            <ol class="breadcrumb">
+                <li><a href="http://shaneth.com">Home</a></li> ->
+                <li class="active">Drum Sequencer</li>
+            </ol>
+            <h1>Drum Sequencer</h1>
+            <p> I have been working on building this <strong><em>16 Track, 8-32 step drum sequencer</em></strong> using a Teensy 3.5 on the Arduino platform.</p><div class="cushion"></div>
+            <p>Please feel free to contact me if you have any questions:
+                <br>
+                <span class="label label-default">Email</span> Contact@Shaneth.com
+                <br>
+                <span class="label label-default">Call/Text</span> 929.265.0073<br>
+
+
+
+
+        </div>
+        <div class="col-sm-4"><br>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="body-content container" id="about">
+
+
+
+
+    Here is a demo video of the sequencer in operation:<br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YNUXWTbmIOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+    The code is available <a href="https://l.shaneth.com/drumseqgithub">on my GitHub</a>
+
+    <hr />
+
+    <h2>Interface:</h2>
+    As demonstrated in the video, the primary method of interacting with the sequencer is through the NeoTrellis array. After much refinement, I settled on allowing the user to do a very basic 8-step sequence without needing to interact with anything except the array itself.
+<br>
+    There is a potentiometer that is used to change the velocity of a selected note, which is indicated by the note blinking.
+    <br>
+    There are 4 buttons to the left of that that act as a "directional pad" for the array, which allows "banking" up and down to access all 16 tracks, and "scrolling" left to right to access up to 32 steps, since the arrays are costly to build a 16x32 array. However, after workshopping the sequencer with some testers, I realized that the "banking" and "scrolling" is not a very approachable UX. Therefore, the default sequence length is 8 steps so it fits on one array, the user does not need to deal with any banking/scrolling right away.
+    <br>
+    To the left of that, you will find two buttons that increment and decrement the tempo by 5bpm. The default project tempo is 120bpm, to follow the standard set by most midi sequencers.
+    <br>
+    The leftmost pushbutton allows the user to change the project length. Upon pressing the button, the trellis will light up a pixel for each step in the project, and the user can use the left or down button to decrease project length by 1 step down to 2 steps, and use the right or up button to increase project length by 1 step up to 32 steps.
+    <br>
+    All the way to the left is an audio jack, which can be used for audio output of the sequencer using the Teensy Audio Library drum synthesizer. <i>However, at the moment I have not gotten around to programming all the values, so all the drums mostly sound the same. </i>
+
+    <hr />
+
+    <h3>Some things I learned along the way:</h3>
+    <strong>Memory Management:</strong> Don't bother getting fancy with the data structures on a Teensy, even with my massive project I only use about 3% of the runtime memory on the Teensy 3.5. However, optimize, optimize, optimize.
+    <br>
+    <strong>Analog Ground: </strong>My audio output was extremely noisy when I first connected it, and the noise would change as the NeoTrellis changed its display. However, when Professor Litt connected the audio output ground to analog ground instead of my regular ground, that completely solved the issue. <em>When doing the lab with Teensy Audio Libraries, we did not experience noise from the typical Teensy ground.</em>
+    <br>
+    <hr />
+
+    <h3>Some drawbacks:</h3>
+    <strong>Processing Power: </strong>I programmed all of my dream features into the device, and then immediately got decimated by the limited processing power of the Teensy. For example, I had a system to sync the unit to an incoming MIDI signal from a DAW, however, this system only operated properly when I disabled almost every other feature of the device, as MIDI sends 24 clock pulses per beat, and at 120BPM that becomes 48 clock signals per second, which the Teensy cannot process gracefully while simultaneously generating audio and MIDI for a sequencer and drawing the Trellis every step.
+    <br>
+    <strong>EEPROM: </strong>I'm not sure if it is just my Teensy, but the EEPROM is noisy. I ran some stress tests where I wrote 4096 values to the EEPROM and then read them out after a complete power cycle, and on nearly every test there would be inaccurate values. Errors within my usage were limited, as it would only disturb only a few "notes". However, errors that change the tempo or project length values are typically fatal for the proper operation of the sequencer, so they have been disabled for now. I have a tentative future plan to write the saved information multiple times (I think 3) and using the extra copies of the saved information for error-correction. The Teensy 3.5 has 4096 bytes, I need 514 bytes to save the information to restore the users "project".
+    <br>
+    <hr />
+
+    <h3>The Hardware:</h3>
+    The hardware side of this project is fairly simple: A 4x8 <a href="https://learn.adafruit.com/adafruit-neotrellis?view=all">NeoTrellis array</a> that connects over I2C. The NeoTrellis was great to work with, as it includes event handlers for all of its buttons which greatly simplified programming. For the other buttons, I used my own ShaneButton button handling class- I did not implement event handlers in that class and instead just used a boolean value representing <strong>if</strong> <strong>the button is currently pushed</strong>, which allowed me to change the function of the buttons depending on where I am in the program control.
+    <br>
+    There is a small handful of pushbuttons and a potentiometer on the breadboard that allow the user to interact with some other settings.
+    <br>
+    There is also a headphone jack for audio output.
+
+    <hr />
+
+    <h3>The Software:</h3>
+    If you're interested in the software that powers this thing, the <a href="https://github.com/ShanethPatterson/Drum-Sequencer/blob/master/Drum_Seq.cpp">706-line source is available on my GitHub.</a>
+    <br>
+    I tried to write the software as flexible as possible, and be moderately conscious of memory usage. After the first 68 lines of variable definitions, there are very very very few hardcoded values. This way, a change to a default value or pin location, or <em>even the size of the NeoTrellis</em> being used can be adjusted in the constants and the program will function without changing any other code.
+
+    <div class="cushion"></div>
+    <h3><a href="http://shaneth.com">Back to Home</a></h3>
+    <br><div><table cellPadding="0" cellSpacing="0"><tbody><tr><td colSpan="2"><div style="padding-bottom:15px; color: #515369"><div><strong>Shane Patterson</strong></div><div>NYU '21 | Music Technology & Computer Science</div></div></td></tr><tr><td style="vertical-align:top"><img alt="" src="http://shaneth.com/img/SPlogo-logoOnly.png" style="max-width:200px;max-height:60px"/></td><td><div style="font-size:0.9em;white-space:nowrap;border-left:1px solid rgba(81, 83, 105);margin-left:20px;padding-left:20px"><div><div><span> </span><a style="color:rgb(81, 83, 105)" href="mailto:shane@shanepattersonmusic.com">shane@shanepattersonmusic.com</a></div><div></div><div><span></span><a style="color:rgb(81, 83, 105)" href="http://shaneth.com"><strong>shaneth.com</strong></a></div><div></div></div></div></td></tr></tbody></table></div>
+    <div class="cushion"></div>
+</div>
+</div>
+
+
+</body>
+
+</html>

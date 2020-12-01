@@ -2,7 +2,7 @@
 require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
-$featuredsectionshow = true;
+$featuredsectionshow = false;
 $featuredSectionSelection = 3;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
@@ -550,6 +550,7 @@ if ($_GET['view'] == "s") {
             }
             ?>
         </script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </body>

@@ -52,9 +52,13 @@ function loadiFrames(){
     $("#contact iframe").each(function (index) {
         $(this).attr("src", $(this).attr("data-src"));
     });
+    grecaptcha.reset();
 }
 function bodyLoaded(){
     $("iframe").each(function (index) {
+        $(this).attr("data-src", $(this).attr("src"));
+    });
+    $("#contact iframe").each(function (index) {
         $(this).attr("data-src", $(this).attr("src"));
     });
     
@@ -72,5 +76,5 @@ function bodyLoaded(){
         $(".nav-sp-link").removeClass("background-black")
         loadiFrames();
     }, 2000);
-
+    grecaptcha.reset();
 }
