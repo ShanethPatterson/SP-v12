@@ -32,6 +32,7 @@ if ($_GET['view'] == "s") {
 <div class="cover" id="cover">
     <div class="text-center">
         <h1 class="loading-banner">Loading...</h1>
+        <h3 class='loading-banner' id="loading-subtext"></h3>
         <?php if ($_GET['view'] == "s") {
             echo ("<h3 class='loading-banner'>mobile version</h3>");
         }
@@ -332,7 +333,9 @@ if ($_GET['view'] == "s") {
             <p>Contact me via the form below if you have any questions, or have a project in any stage I
                 can
                 help you
-                with.</p>
+                with.
+
+            </p>
         </div>
 
         <div class="container " id="contact">
@@ -465,7 +468,8 @@ if ($_GET['view'] == "s") {
                         <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The
                         Starcatcher,
                         Peter/Wendy,
-                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A Wonderful Life
+                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A Wonderful
+                        Life
                         <br>
                         <strong>Syracuse Stage</strong>: Random Acts
                         <hr>
@@ -551,6 +555,9 @@ if ($_GET['view'] == "s") {
             ?>
         </script>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <link href="//static.cushionapp.com/availability.css" rel="stylesheet">
+        <script src="//static.cushionapp.com/availability.js" data-user="a0ea4367-4043-477b-b40d-10854c42b073">
+        </script>
 
 
 </body>
