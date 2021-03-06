@@ -47,7 +47,7 @@ if ($_GET['view'] == "s") {
 </div>
 <script>
 var bodyLoadStatus = false;
-var loadingtexts = ['Launching Pro Tools...', 'Tuning guitars...', 'Waking up the bass player...',
+var loadingtexts = ['Restarting Pro Tools...', 'Tuning guitars...', 'Waking up the bass player...',
     'Getting the singer "a glass of slightly below room temperture water"...', 'Turning down the guitar amp...',
     'Wondering where the guitarist went...', 'Grabbing another slice of pizza...',
     'Trying to find the buzzing cable...', 'Using a SM57 as a hammer...',
@@ -58,7 +58,21 @@ var loadingtexts = ['Launching Pro Tools...', 'Tuning guitars...', 'Waking up th
     'Turning it off and back on again...', 'What key are we in?', 'Tuning the piano...',
     'Trying to get the B3 to spin up...', 'Sending everything to the reverb...',
     'Replacing the C800G with a SM7B...', 'Spilling coke on the 1073...',
-    'Using the console to warm up pop tarts...'
+    'Using the console to warm up pop tarts...',
+    'Tuning the drum kit...',
+    'Finding the banana shaker...',
+    'Clicking save as...',
+    'Googling "what is impedance"...',
+    'Looking for a drum key...',
+    'Tuning the 12-string...',
+    'Buying more headphone adapters...',
+    '"Not using autotune"...',
+    'Who is Dante?',
+    'Importing 281 vocal tracks...',
+    'Muting 4 of the 5 kick drums...',
+    'Shopping for more gear...',
+    'Checking the mix on phone speakers...',
+    ''
 ]
 
 function loadingText() {
