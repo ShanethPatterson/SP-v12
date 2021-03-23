@@ -8,6 +8,7 @@ include 'projects/folklore.php';
 include 'projects/history.php';
 include 'projects/whenjanuarycomes.php';
 include 'projects/517live.php';
+include 'projects/worththerisk.php';
 $discography = [ //0: Title
         //1: Byline
         //2: Role
@@ -22,6 +23,7 @@ $discography = [ //0: Title
         //"description"
         //,"2019",["yt","sp","am","t","bc"],"widget code","nomintated for somethin"],
         $posted,
+        $worththerisk,
         $closetoher,
         $esteelauder,
         $bigeyes, //big eyes & rosy cheeks
