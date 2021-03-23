@@ -2,8 +2,8 @@
 require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
-$featuredsectionshow = false;
-$featuredSectionSelection = 3;
+$featuredsectionshow = true;
+$featuredSectionSelection = 5;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
     $numAcross = 2;

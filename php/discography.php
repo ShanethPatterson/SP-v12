@@ -7,6 +7,7 @@ include 'projects/shadesofblue.php';
 include 'projects/folklore.php';
 include 'projects/history.php';
 include 'projects/whenjanuarycomes.php';
+include 'projects/517live.php';
 $discography = [ //0: Title
         //1: Byline
         //2: Role
@@ -25,6 +26,7 @@ $discography = [ //0: Title
         $esteelauder,
         $bigeyes, //big eyes & rosy cheeks
         $shadesofblue, //Shades Of Blue
+        $live517,
         $folklore, //Folklore
         $history, //History
 
