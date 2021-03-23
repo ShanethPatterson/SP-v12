@@ -233,6 +233,7 @@ loadingText();
                 </li>
                 <li>Experience with Dante (certified level 3), MADI, AES50, Ultranet, and other audio protocols.
                 </li>
+                <li>Experience coordinating wireless audio in very troublesome RF environements.</li>
                 <li>Engineer or Mixer for a variety of live events with crowd sizes 100-1400.</li>
                 <li>Sound Designer, FOH Mixer, Mic Tech and A2 for a variety of theatrical productions at
                     various
@@ -271,6 +272,8 @@ loadingText();
                 <li>Led a project to design and deploy an Audio over IP solution to allow remote broadcasting
                     while NYU
                     shut down the building housing the WNYU radio station due to coronavirus.
+                </li>
+                <li>Experience as A1 and A2 for small multicamera productions.
                 </li>
             </ul>
         </div>

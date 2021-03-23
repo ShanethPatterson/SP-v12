@@ -1,6 +1,6 @@
 <?php
 $worththerisk = [
-        "Worth The Risk", "15 Song Album by Kyle Micho", "Mixer", "Pop", "img/albums/worththerisk.jpg",
+        "Worth The Risk", "15 Song Album by Kyle Micho", "Mixer", "Rock", "img/albums/worththerisk.jpg",
         "All songs written, performed and produced by Kyle Micho<br>
         Artwork by Emma Discenza<br>
 <strong>Mixed and Mastered by Shane Patterson</strong><br>
