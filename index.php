@@ -448,6 +448,7 @@ loadingText();
                             <li>2x JBL PRX415</li>
                             <li>2x JBL MRX518s</li>
                             <li>2x JBL JRX218</li>
+                            <li>4x EAW SM129zi</li>
                             <li>2x JBL EON10</li>
                             <li>2x Custom wedge with JBL 15" and Fostex Horn</li>
                         </ul>
