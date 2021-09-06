@@ -3,7 +3,7 @@ require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spa
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
 $featuredsectionshow = true;
-$featuredSectionSelection = 6;
+$featuredSectionSelection = 7;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
     $numAcross = 2;
@@ -48,7 +48,7 @@ if ($_GET['view'] == "s") {
 <script>
 var bodyLoadStatus = false;
 var loadingtexts = ['Restarting Pro Tools...', 'Tuning guitars...', 'Waking up the bass player...',
-    'Getting the singer "a glass of slightly below room temperture water"...', 'Turning down the guitar amp...',
+    'Getting the singer "a glass of slightly above room temperture water"...', 'Turning down the guitar amp...',
     'Wondering where the guitarist went...', 'Grabbing another slice of pizza...',
     'Trying to find the buzzing cable...', 'Using a SM57 as a hammer...',
     'Converting 96KHz WAV to 96kbps MP3...', 'Forgetting about phase...',
@@ -57,7 +57,7 @@ var loadingtexts = ['Restarting Pro Tools...', 'Tuning guitars...', 'Waking up t
     'Giving the "drummer more of everything except the lead guitar" in their mix...',
     'Turning it off and back on again...', 'What key are we in?', 'Tuning the piano...',
     'Trying to get the B3 to spin up...', 'Sending everything to the reverb...',
-    'Replacing the C800G with a SM7B...', 'Spilling coke on the 1073...',
+    'Replacing the C800G with a SM7B...', 'Spilling cola on the 1073...',
     'Using the console to warm up pop tarts...',
     'Tuning the drum kit...',
     'Finding the banana shaker...',
@@ -91,7 +91,12 @@ loadingText();
     <div class="jumbotron jumbotron-fluid" id="header">
         <div class="text-center">
             <img class="mx-auto d-block img-fluid" src="img/logos/SPlogo-logoOnly.png">
-            <h1>Shane Patterson</h1>
+            <h1>Grab listeners attention.</h1>
+            <h3>
+                <p>Capture your audience on the radio and in playlists with sound that stands out and is uniquely
+                    yours.</p>
+                <a href="#contact"><button type=" primary" class="btn btn-success">Book
+                        Now</button></a>
         </div>
     </div>
 
@@ -218,7 +223,9 @@ loadingText();
                 </div>
             </div>
         </div>
-        <div id="live" class="container">
+
+
+        <div id=" live" class="container">
             <h1>Live Sound</h1>
             <ul>
                 <li>Sound Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
@@ -327,7 +334,7 @@ loadingText();
                 I
                 balanced
                 classes at NYU, gigs in two cities 230 miles apart, and studio internships.
-                <br><br>Recently, in March 2020, I designed and implemented an audio-over-IP solution to
+                <br><br>In March 2020, I designed and implemented an audio-over-IP solution to
                 allow
                 WNYU89.1FM to
                 broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on
@@ -372,6 +379,15 @@ loadingText();
                 team, and the moments I get to spend
                 forming relationships with artists are the best part of what I do.
             </p>
+            <p>
+                In Feburary 2021, my ATMOS mixing studio came online and I began mixing from a room with
+                world-class
+                accuracy and translation. With a frequency response 29-18KHz +/- 4dB furnished and fully
+                loaded, my
+                room is more
+                accurate than most studios and my mixes translate to many enviornments without extensive
+                revisions.
+            </p>
             <p>Contact me via the form below if you have any questions, or have a project in any stage I
                 can
                 help you
@@ -381,6 +397,31 @@ loadingText();
         </div>
 
         <div class="container " id="contact">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Mix Booking:</h1>
+                    <img src="https://www.appointletcdn.com/loader/buttons/008DBD.png"
+                        data-appointlet-organization="shane-patterson" data-appointlet-service="553072">
+                    <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
+                    <p>Use this link to pick when you would like us to begin working on your mix! This should be after
+                        you are able to have all files delivered. Estimated turnaround is 5-9 business days for first
+                        mix. If you need something (especially with revisions) faster, please email me and we can try to
+                        work
+                        something out!
+                        The rate includes unlimited mix revisions, however adding additional instruments and elements
+                        after the first mix will greatly increase scope of work and therefore cost more. Additional work
+                        is typically negotiated on an hourly rate. Feel free to email if you have any questions!</p>
+                </div>
+                <div class="col-sm-6">
+                    <h1>Other Projects:</h1>
+                    <img src="https://www.appointletcdn.com/loader/buttons/2C3E50.png"
+                        data-appointlet-organization="shane-patterson" data-appointlet-service="515598">
+                    <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
+                    <p>This link allows you to schedule a quick, 15 minute meeting with me to discuss your next project!
+                    </p>
+                </div>
+            </div>
+            <h1>Contact Me:</h1>
             <p>
                 <br>
                 <span class="badge badge-info ">Email</span> Contact@Shaneth.com
@@ -511,7 +552,8 @@ loadingText();
                         <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The
                         Starcatcher,
                         Peter/Wendy,
-                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A Wonderful
+                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A
+                        Wonderful
                         Life
                         <br>
                         <strong>Syracuse Stage</strong>: Random Acts
@@ -598,8 +640,13 @@ loadingText();
             ?>
         </script>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <link href="//static.cushionapp.com/availability.css" rel="stylesheet">
-        <script src="//static.cushionapp.com/availability.js" data-user="a0ea4367-4043-477b-b40d-10854c42b073">
+
+
+        <script src="https://apis.google.com/js/api.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+            integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+            crossorigin="anonymous">
         </script>
 
 

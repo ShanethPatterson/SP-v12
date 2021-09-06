@@ -299,3 +299,6 @@ h6 {
 #background-black {
   background: #000000 !important;
 }
+.btn {
+  border-radius: 0;
+}

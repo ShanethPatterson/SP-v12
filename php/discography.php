@@ -9,6 +9,7 @@ include 'projects/history.php';
 include 'projects/whenjanuarycomes.php';
 include 'projects/517live.php';
 include 'projects/worththerisk.php';
+include 'projects/recmouthwash.php';
 $discography = [ //0: Title
         //1: Byline
         //2: Role
@@ -26,9 +27,11 @@ $discography = [ //0: Title
         $worththerisk,
         $closetoher,
         $esteelauder,
+        $whenjanuarycomes, //WJC
         $bigeyes, //big eyes & rosy cheeks
         $shadesofblue, //Shades Of Blue
         $live517,
+        $recmouthwash,
         $folklore, //Folklore
         $history, //History
 
@@ -81,7 +84,7 @@ $discography = [ //0: Title
                     src=\"https://bandcamp.com/EmbeddedPlayer/album=3313686972/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/\"
                     seamless><a href=\"http://rennyandthesimones.bandcamp.com/album/burlap-backwards\">Burlap Backwards by
                     Renny &amp; the Simones</a></iframe>", ""], //Burlap Backwards
-        $whenjanuarycomes, //WJC
+
         ["Break It Down", "Live session by Brett Altman", "Mixer", "Live Trio", "img/albums/Altman.jpg", "Filmed
                 by Ryan Canney at Riverbank Creative<br>Guitar and Vocals by Brett Altman<br>Keyboard by Max Perkins<br>Saxophone
                 by Brian Seltzer<br><strong>Mixed by Shane Patterson</strong>", "2018", ["https://youtu.be/Js8Xn5c_3ps", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/Js8Xn5c_3ps\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //Break It Down
