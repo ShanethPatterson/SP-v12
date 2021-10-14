@@ -3,7 +3,7 @@ require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spa
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
 $featuredsectionshow = true;
-$featuredSectionSelection = 7;
+$featuredSectionSelection = 8;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
     $numAcross = 2;
