@@ -228,7 +228,8 @@ loadingText();
         <div id=" live" class="container">
             <h1>Live Sound</h1>
             <ul>
-                <li>Sound Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
+                <li>Experience modelling and designing systems for theater, sports arenas, and churches.</li>
+                <li>Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
                     Syracuse
                     NY. Multiple bands
                     perform for an audience and on live radio broadcast. Live sound and backline provided by
