@@ -2,7 +2,7 @@
 require 'php/mail.php'; //returns two booleans, $contacted if message sent, $spam if message failed to pass validation
 require 'php/discography.php'; //returns content array $discography[]
 //FEATURED SECTION---------------------------------
-$featuredsectionshow = true;
+$featuredsectionshow = false;
 $featuredSectionSelection = 8;
 $numAcross = 6;
 if ($_GET['view'] == "s") {
@@ -93,32 +93,27 @@ loadingText();
             <img class="mx-auto d-block img-fluid" src="img/logos/SPlogo-logoOnly.png">
             <h1>Grab listeners attention.</h1>
             <h3>
-                <p>Capture your audience on the radio and in playlists with sound that stands out and is uniquely
+                <p class="d-none d-lg-block">Capture your audience on the radio and in playlists with sound that stands
+                    out and is uniquely
                     yours.</p>
-                <a href="#contact"><button type=" primary" class="btn btn-success">Book
-                        Now</button></a>
+                <a href="#contact"><button type=" primary" class="btn btn-success">Let's Talk</button></a>
         </div>
     </div>
 
     <div class="body-content" id="body-content">
         <!--------Navbar------>
         <nav class="d-none d-md-flex navbar sticky-top nav-sp row text-center" id="main-nav">
-            <div class="col-md-2 nav-sp-link">
-                <a href="#music">Music</a>
+            <div class="col-md-3 nav-sp-link">
+                <a href="#music">Portfolio</a>
             </div>
-            <div class="col-md-2 nav-sp-link">
+            <div class="col-md-3 nav-sp-link">
                 <a href="#videos">Videos</a>
             </div>
-            <div class="col-md-2 nav-sp-link">
+            <div class="col-md-3 nav-sp-link">
                 <a href="#live">Live Sound</a>
             </div>
-            <div class="col-md-2 nav-sp-link">
-                <a href="#lighting">Lighting</a>
-            </div>
-            <div class="col-md-2 nav-sp-link">
-                <a href="#about">About</a>
-            </div>
-            <div class="col-md-2 nav-sp-link noborder">
+
+            <div class="col-md-3 nav-sp-link noborder">
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -225,10 +220,13 @@ loadingText();
         </div>
 
 
-        <div id=" live" class="container">
+        <div id="live" class="container">
+
+
             <h1>Live Sound</h1>
             <ul>
-                <li>Experience modelling and designing systems for theater, sports arenas, and churches.</li>
+                <li>Experience modelling and designing systems for theater, sports arenas, and churches with 3D
+                    prediction software.</li>
                 <li>Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
                     Syracuse
                     NY. Multiple bands
@@ -237,11 +235,11 @@ loadingText();
                     Sound. <i>December 2016, 2017, 2018, 2019</i></li>
                 <li>System Tech for various point-source and line source deployments with sub alignment and
                     delays,
-                    typically using DBX DriveRack or BSS Soundweb.
+                    typically using DBX DriveRack, BSS Soundweb, RANE 1010X and others.
                 </li>
                 <li>Experience with Dante (certified level 3), MADI, AES50, Ultranet, and other audio protocols.
                 </li>
-                <li>Experience coordinating wireless audio in very troublesome RF environements.</li>
+                <li>Experience coordinating wireless audio in troublesome RF environements.</li>
                 <li>Engineer or Mixer for a variety of live events with crowd sizes 100-1400.</li>
                 <li>Sound Designer, FOH Mixer, Mic Tech and A2 for a variety of theatrical productions at
                     various
@@ -260,6 +258,7 @@ loadingText();
                     <img height="100px" src="img/dante3seal.png">
                 </div>
             </div>
+
             <h4>For System Rentals: </h4>
             <a href="#" data-toggle="modal" data-target="#gearModal"><strong>Patterson Sound Gear
                     List</strong></a><br>
@@ -285,177 +284,61 @@ loadingText();
                 </li>
             </ul>
         </div>
+
         <!-------- END LIVE ----->
+
         <div class="lighting-outer">
-            <div id="lighting" class="container">
-
-                <!----------- LIGHTING ------>
-                <h1>Lighting Design:</h1>
-
-
-                <a href="#" data-toggle="modal" data-target="#lightModal">Click here for a list of
-                    credits</a>
-                <hr>
-                <div class="row gal">
-                    <div class="col-sm-4">
-                        <img src="img/light/asu2.jpg" class="img img-fluid">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/light/psc1.jpg" class="img img-fluid">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/light/rh1.jpg" class="img img-fluid">
-                    </div>
-                </div>
-                <br>
-                <a href="https://shanepatterson.pixieset.com/lightingdesign/">Click here to view full
-                    gallery</a>
-            </div>
-        </div>
-        <!---------- ABOUT ------>
-        <div class="container" id="about">
-            <h1>About</h1>
-            <p>My love of audio began early. When I was 12, I was lucky enough to observe tracking
-                sessions in
-                <a href="http://hobinstudios.com">Todd Hobin's studio</a>, and before I was 14, the
-                folks at the
-                studio somehow trusted me behind the console recording projects for my friends. While in
-                high
-                school, I
-                produced over a dozen projects for local artists, and after leaving for New
-                York City to study Music Technology & Computer Science at NYU, I continued working on
-                everything
-                I
-                could. By the time I turned 20, I had produced 3 SAMMY-Nominated projects.
-                The album I produced and co-wrote with Stephen Phillips, "big eyes & rosy cheeks",
-                earned a
-                "Best Pop
-                Recording" and Stephen took home the Brian Bourke Award for Best New Artist.
-                I've been incredibly lucky to meet amazing mentors and friends every step of the way as
-                I
-                balanced
-                classes at NYU, gigs in two cities 230 miles apart, and studio internships.
-                <br><br>In March 2020, I designed and implemented an audio-over-IP solution to
-                allow
-                WNYU89.1FM to
-                broadcast remotely during the NYC COVID-19 closures. I faced a handful of challenges on
-                that
-                project,
-                borrowing the AoIP hardware from Sirius XM, dealing with NYU’s strict firewall around
-                the
-                internal network, and avoiding dreaded “dead air” while setting these systems up. And as
-                of June
-                2020, I
-                have starting working in the technical department of a local theatre, The RedHouse Arts
-                Center,
-                using
-                lighting and
-                sound design to help present stories on stage, then deploying multi-camera live streams
-                to
-                present it to
-                virtual audiences. My latest challenge and exciting venture, has been exploring Dolby
-                ATMOS
-                technology.
-                I
-                was recently brought on to mix a film, and dove into the world ATMOS and its
-                capabilities- and I
-                hope to next explore it’s capabilities mixing music.
-                <br><br>When I'm not working with audio, I design lighting for theatre. I've designed
-                over 20
-                musicals,
-                with a portfolio of
-                high school, community, regional, and off-broadway shows.<br><br>
-
-                At my core, I aim to solve problems for artists. I'm extremely project oriented; I
-                prefer to
-                start a
-                project with an artists first ideas, and finally let go when the audinces love it. I
-                believe
-                that
-                magical
-                projects come
-                from
-                a
-                dedicated
-                team, and the moments I get to spend
-                forming relationships with artists are the best part of what I do.
-            </p>
-            <p>
-                In Feburary 2021, my ATMOS mixing studio came online and I began mixing from a room with
-                world-class
-                accuracy and translation. With a frequency response 29-18KHz +/- 4dB furnished and fully
-                loaded, my
-                room is more
-                accurate than most studios and my mixes translate to many enviornments without extensive
-                revisions.
-            </p>
-            <p>Contact me via the form below if you have any questions, or have a project in any stage I
-                can
-                help you
-                with.
-
-            </p>
-        </div>
-
-        <div class="container " id="contact">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>Mix Booking:</h1>
-                    <img src="https://www.appointletcdn.com/loader/buttons/008DBD.png"
-                        data-appointlet-organization="shane-patterson" data-appointlet-service="553072">
-                    <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
-                    <p>Use this link to pick when you would like us to begin working on your mix! This should be after
-                        you are able to have all files delivered. Estimated turnaround is 5-9 business days for first
-                        mix. If you need something (especially with revisions) faster, please email me and we can try to
-                        work
-                        something out!
-                        The rate includes unlimited mix revisions, however adding additional instruments and elements
-                        after the first mix will greatly increase scope of work and therefore cost more. Additional work
-                        is typically negotiated on an hourly rate. Feel free to email if you have any questions!</p>
-                </div>
-                <div class="col-sm-6">
-                    <h1>Other Projects:</h1>
-                    <img src="https://www.appointletcdn.com/loader/buttons/2C3E50.png"
-                        data-appointlet-organization="shane-patterson" data-appointlet-service="515598">
-                    <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
-                    <p>This link allows you to schedule a quick, 15 minute meeting with me to discuss your next project!
-                    </p>
-                </div>
-            </div>
-            <h1>Contact Me:</h1>
-            <p>
-                <br>
-                <span class="badge badge-info ">Email</span> Contact@Shaneth.com
-                <br>
-                <span class="badge badge-info">Call/Text</span> 929.265.0073<br>
-                <a href="http://shaneth.com">Learn More About Me at Shaneth.com</a>
-            <form method="post" action="<?php $_PHP_SELF ?>">
-                <div class="form-group">
-                    <div class="form-row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
-                        </div>
-                        <div class="col">
-                            <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control bb" rows="3" name="message"></textarea>
-                </div>
-                <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
+            <div class="container " id="contact">
+                <h1>Let's Talk!</h1>
+                <p>
+                    <br>
+                    <span class="badge badge-info ">Email</span> Contact@Shaneth.com
+                    <br>
                 <div class="row">
-                    <div class="col-sm-3" id="submit">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="col-lg-6">
+                        <h2>Send an Email</h2>
+                        <form method="post" action="<?php $_PHP_SELF ?>">
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" name="Name" id="name"
+                                            placeholder="Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" name="Email" id="email" class="form-control"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control bb" rows="3" name="message"></textarea>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
+                            <div class="row">
+                                <div class="col-sm-3" id="submit">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                <div class="col-sm-9">
+                                    <button type="reset" class="btn btn-warning">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
-                    <div class="col-sm-9">
-                        <button type="reset" class="btn">Reset</button>
+                    <div class="col-lg-6">
+                        <h2>Schedule A Meeting:</h2>
+                        <!-- Motion embed begin -->
+                        <iframe src="https://app.usemotion.com/meet/shane-patterson/30min" title="Motion Booking Page"
+                            width="100%" height="640px" frameborder="0"></iframe>
+                        <!-- Motion embed end -->
+
                     </div>
+
                 </div>
-            </form>
 
+
+            </div>
         </div>
-
         <!------- END BODY CONTENT ---->
 
         <!----- LIVE SOUND MODAL ---->
@@ -526,71 +409,7 @@ loadingText();
                 </div>
             </div>
         </div>
-        <!----------LIGHTING CREDITS MODAL-------->
-        <div class="modal fade" id="lightModal" tabindex="-1" role="dialog" aria-labelledby="lightModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="lightModalLabel">Lighting</h4>
-                    </div>
-                    <div class="modal-body">
-                        <h4>Off-Broadway</h4>
-                        <strong>Slingshot Theater Company: </strong> Tamra Wasserman Presents: This is
-                        Real,
-                        This is Me
-                        <hr>
-                        <h4>Regional</h4>
 
-                        <strong>Baldwinsville Theatre Guild</strong>: Peter and The Starcatcher
-                        (<i>nominated
-                            for best
-                            lighting
-                            design by the SALT awards</i>)
-                        <br>
-                        <strong>The Redhouse Arts Center</strong>: Tick Tick Boom!, Peter And The
-                        Starcatcher,
-                        Peter/Wendy,
-                        Alice In Wonderland, Into The Woods, Jasper In Deadland, Ain't It Grand, It's A
-                        Wonderful
-                        Life
-                        <br>
-                        <strong>Syracuse Stage</strong>: Random Acts
-                        <hr>
-                        <h4>High School</h4>
-                        <br><strong>Cicero North Syracuse High School</strong>: Legally Blonde, Little
-                        Shop Of
-                        Horrors,
-                        The
-                        Addams Family, Nunsense, All Shook Up, Play On, Curtains!, Oklahoma, Tuck Everlasting
-                        <br>
-                        <strong>Baldwinsville High School</strong>: Once Upon A Mattress, Princess Grace
-                        Of
-                        Knockerdown,
-                        Little
-                        Shop Of Horrors, Cafe Murder
-                        <br>
-                        <strong>Baldwinsville Musical Players at The Oncenter Carrier Theatre: </strong>
-                        Seussical The
-                        Musical
-                        <br>
-                        <strong>Baldwsinville Musical Players at The Jordan Elbridge Theatre:
-                        </strong>:
-                        Irving
-                        Berlin's
-                        White Christmas
-                        <br>
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!---------Javascript------>
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
@@ -605,9 +424,9 @@ loadingText();
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="js/smooth-scroll.polyfills.min.js"></script>
         <script src="js/bootstrap-detect-breakpoint.js"></script>
-        <script language="javascript">
+        <!----- <script language="javascript">
         <?php if ($_GET['view'] != "s") {
-                echo ("
+            echo ("
     if(bootstrapDetectBreakpoint().index<=1){
     window.location.href=\"?view=s\";
     }
@@ -618,15 +437,15 @@ loadingText();
      speed: 500
     });
 ");
-            } else {
-                echo ("
+        } else {
+            echo ("
     if(bootstrapDetectBreakpoint().index>1){
     window.location.href=\"?\";
 }
 ");
-            }
-            ?>
-        </script>
+        }
+        ?>
+        </script> ----->
         <script src="js/sp.js"></script>
         <script language="javascript">
         numMusic = (<?php echo (count($discography)); ?>);
