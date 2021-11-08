@@ -295,44 +295,35 @@ loadingText();
                     <span class="badge badge-info ">Email</span> Contact@Shaneth.com
                     <br>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h2>Send an Email</h2>
-                        <form method="post" action="<?php $_PHP_SELF ?>">
-                            <div class="form-group">
-                                <div class="form-row">
-                                    <div class="col">
-                                        <input type="text" class="form-control" name="Name" id="name"
-                                            placeholder="Name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" name="Email" id="email" class="form-control"
-                                            placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control bb" rows="3" name="message"></textarea>
-                            </div>
-                            <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
-                            <div class="row">
-                                <div class="col-sm-3" id="submit">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </div>
-                                <div class="col-sm-9">
-                                    <button type="reset" class="btn btn-warning">Reset</button>
-                                </div>
-                            </div>
-                        </form>
 
-                    </div>
-                    <div class="col-lg-6">
-                        <h2>Schedule A Meeting:</h2>
-                        <!-- Motion embed begin -->
-                        <iframe src="https://app.usemotion.com/meet/shane-patterson/30min" title="Motion Booking Page"
-                            width="100%" height="640px" frameborder="0"></iframe>
-                        <!-- Motion embed end -->
+                    <h2>Send an Email</h2>
+                    <form method="post" action="<?php $_PHP_SELF ?>">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control bb" rows="3" name="message"></textarea>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
+                        <div class="row">
+                            <div class="col-sm-3" id="submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                            <div class="col-sm-9">
+                                <button type="reset" class="btn btn-warning">Reset</button>
+                            </div>
+                        </div>
+                    </form>
 
-                    </div>
+
+
 
                 </div>
 
