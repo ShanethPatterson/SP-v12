@@ -294,38 +294,38 @@ loadingText();
                     <br>
                     <span class="badge badge-info ">Email</span> Contact@Shaneth.com
                     <br>
-                <div class="row">
 
-                    <h2>Send an Email</h2>
-                    <form method="post" action="<?php $_PHP_SELF ?>">
-                        <div class="form-group">
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
-                                </div>
+
+                <h2>Send an Email</h2>
+                <form method="post" action="<?php $_PHP_SELF ?>">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+                            </div>
+                            <div class="col">
+                                <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control bb" rows="3" name="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control bb" rows="3" name="message"></textarea>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
+                    <div class="row">
+                        <div class="col-sm-3" id="submit">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6Lcjc5QUAAAAAK9ZEu9Ny1DNR1TXDKl38hLKR3vu"></div>
-                        <div class="row">
-                            <div class="col-sm-3" id="submit">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                            <div class="col-sm-9">
-                                <button type="reset" class="btn btn-warning">Reset</button>
-                            </div>
+                        <div class="col-sm-9">
+                            <button type="reset" class="btn btn-warning">Reset</button>
                         </div>
-                    </form>
+                    </div>
+                </form>
 
 
 
 
-                </div>
+
 
 
             </div>
