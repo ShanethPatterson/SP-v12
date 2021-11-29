@@ -415,28 +415,14 @@ loadingText();
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="js/smooth-scroll.polyfills.min.js"></script>
         <script src="js/bootstrap-detect-breakpoint.js"></script>
-        <!----- <script language="javascript">
-        <?php if ($_GET['view'] != "s") {
-            echo ("
-    if(bootstrapDetectBreakpoint().index<=1){
-    window.location.href=\"?view=s\";
-    }
-    var scroll = new SmoothScroll('a[href*=\"#\"]', {
-        header: '.nav-sp-link',
-     clip: true,
-     updateURL: true,
-     speed: 500
-    });
-");
-        } else {
-            echo ("
-    if(bootstrapDetectBreakpoint().index>1){
-    window.location.href=\"?\";
-}
-");
-        }
-        ?>
-        </script> ----->
+        <script language="javascript">
+        var scroll = new SmoothScroll('a[href*=\"#\"]', {
+            header: '.nav-sp-link',
+            clip: true,
+            updateURL: true,
+            speed: 500
+        });
+        </script>
         <script src="js/sp.js"></script>
         <script language="javascript">
         numMusic = (<?php echo (count($discography)); ?>);
