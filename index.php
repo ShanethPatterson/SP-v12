@@ -5,8 +5,10 @@ require 'php/discography.php'; //returns content array $discography[]
 $featuredsectionshow = false;
 $featuredSectionSelection = 8;
 $numAcross = 6;
+if(isset($_GET['view'])){
 if ($_GET['view'] == "s") {
     $numAcross = 2;
+}
 }
 ?>
 <html>
@@ -16,6 +18,7 @@ if ($_GET['view'] == "s") {
     <!---Required tags----->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Shane Patterson is a GRAMMY Nominated Audio Engineer.">
     <!----- / ------------->
     <!------Fav Icons------>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -33,9 +36,12 @@ if ($_GET['view'] == "s") {
     <div class="text-center">
         <h1 class="loading-banner">Loading...</h1>
         <h3 class='loading-banner' id="loading-subtext"></h3>
-        <?php if ($_GET['view'] == "s") {
+        <?php 
+        if(isset($_GET['view'])){
+        if ($_GET['view'] == "s") {
             echo ("<h3 class='loading-banner'>mobile version</h3>");
         }
+    }
         if ($contacted) {
             echo ("<h1 class=\"loading-banner\">Your email has been sent!</h1>");
         }
@@ -90,13 +96,12 @@ loadingText();
     <!------Header------------->
     <div class="jumbotron jumbotron-fluid" id="header">
         <div class="text-center">
+        <h4 class="d-none d-lg-block">Grammy Award Nominated</h4>
             <img class="mx-auto d-block img-fluid" src="img/logos/SPlogo-logoOnly.png">
-            <h1>Grab listeners attention.</h1>
+            <h1>Shane Patterson</h1>
             <h3>
-                <p class="d-none d-lg-block">Capture your audience on the radio and in playlists with sound that stands
-                    out and is uniquely
-                    yours.</p>
-                <a href="#contact"><button type=" primary" class="btn btn-success">Let's Talk</button></a>
+            <p class="d-none d-lg-block">Ensure your music stands out from the noise.</p>
+                <a href="#contact"><button type=" primary" class="btn btn-primary">Let's Talk</button></a>
         </div>
     </div>
 
@@ -110,7 +115,7 @@ loadingText();
                 <a href="#videos">Videos</a>
             </div>
             <div class="col-md-3 nav-sp-link">
-                <a href="#live">Live Sound</a>
+                <a href="#about">About</a>
             </div>
 
             <div class="col-md-3 nav-sp-link noborder">
@@ -220,73 +225,47 @@ loadingText();
         </div>
 
 
-        <div id="live" class="container">
+        <div id="about" class="container">
 
 
-            <h1>Live Sound</h1>
-            <ul>
-                <li>Experience modelling and designing systems for theater, sports arenas, and churches with 3D
-                    prediction software.</li>
-                <li>Designer & FOH Mixer for the 93Q Christmas Spectacular, a live event in Destiny USA,
-                    Syracuse
-                    NY. Multiple bands
-                    perform for an audience and on live radio broadcast. Live sound and backline provided by
-                    Patterson
-                    Sound. <i>December 2016, 2017, 2018, 2019</i></li>
-                <li>System Tech for various point-source and line source deployments with sub alignment and
-                    delays,
-                    typically using DBX DriveRack, BSS Soundweb, RANE 1010X and others.
-                </li>
-                <li>Experience with Dante (certified level 3), MADI, AES50, Ultranet, and other audio protocols.
-                </li>
-                <li>Experience coordinating wireless audio in troublesome RF environements.</li>
-                <li>Engineer or Mixer for a variety of live events with crowd sizes 100-1400.</li>
-                <li>Sound Designer, FOH Mixer, Mic Tech and A2 for a variety of theatrical productions at
-                    various
-                    theatres, from 85 seat
-                    venues
-                    through 1500 seat venues in Syracuse and NYC.
-                </li>
-                <li>Worked with several systems for venues of a variety of sizes that were also
-                    multitrack-recorded or
-                    live
-                    broadcast.
-                </li>
-            </ul>
-            <div class="row center">
-                <div class="col-xs-2" hei>
-                    <img height="100px" src="img/dante3seal.png">
-                </div>
-            </div>
+            <h1>We believe in everything we do.</h1>
+            <p>There's nothing cookie cutter about the method either. Rather, we have analyzed why hundreds of mixes work and songs succeed and we'll tirelessly work on your music until it holds up to the highest regarded recordings. For this very reason, mixes are flat rate: there shouldn't be a financial barrier to getting it right.
 
-            <h4>For System Rentals: </h4>
-            <a href="#" data-toggle="modal" data-target="#gearModal"><strong>Patterson Sound Gear
-                    List</strong></a><br>
-            <div class="row hidden_element gal">
-                <div class="col-sm-4">
-                    <img class="img img-responsive" src="img/live-1.jpeg">
+Our process has been refined by a decade of mixing; it upholds a standard but it doesn't impose a style. The story, enviornment, artistry, and deeper meaning of every song drives every decision we make. The mix is just one piece of an interdependent puzzle that creates the magic of a captivating song.
+          <br>We have spent years figuring out how to engineer excellence, and we can't wait to use it to help you.
+            </p>
+            <div class="row">
+                <div class="col-md-4" style="padding-bottom: 50px;">
+                            <img class="mx-auto d-block img-fluid" src="img/shane-stephen.JPG">
+                            </div>
+                            <div class="col-md-4">
+                            <img class="mx-auto d-block img-fluid" src="img/occ.png">
+                            </div>
+                            
+                            <div class="col-md-4">
+                            <img class="mx-auto d-block img-fluid" src="img/shane-isa.jpg">
+                            </div>
+
+
+                 </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6">
+            <h2>Simple, straightforward rates.</h2>
+            <i>Unlimited revisions. No fee if we don't get it right.</i>
+            <p></p>
                 </div>
-                <div class="col-sm-4">
-                    <img class="img img-responsive" src="img/live-3.jpeg">
-                </div>
-                <div class="col-sm-4">
-                    <img class="img img-responsive" src="img/live-2.jpeg">
-                </div>
-            </div>
-            <h1>Broadcast Audio:</h1>
-            <ul>
-                <li>Engineer at WNYU 89.1FM</li>
-                <li>Led a project to design and deploy an Audio over IP solution to allow remote broadcasting
-                    while NYU
-                    shut down the building housing the WNYU radio station due to coronavirus.
-                </li>
-                <li>Experience as A1 and A2 for small multicamera productions.
-                </li>
-            </ul>
+            <div class="h3 col-lg-6">
+            How many songs are we mixing? <br> <input type="number" id="quantity" name="quantity" min="1" max="20" onClick="calcRate();" onkeyup="calcRate();">
+            = <span id="estimaterate">$350</span> <i> estimated total </i><br><span id="discountrate" style="
+margin-left: 90px;">$0</span> discount
+
         </div>
+                        </div>
+                        </div>
 
         <!-------- END LIVE ----->
-
+<br>
         <div class="lighting-outer">
             <div class="container " id="contact">
                 <h1>Let's Talk!</h1>
@@ -332,74 +311,7 @@ loadingText();
         </div>
         <!------- END BODY CONTENT ---->
 
-        <!----- LIVE SOUND MODAL ---->
-        <div class="modal fade" id="gearModal" tabindex="-1" role="dialog" aria-labelledby="gearModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="lightModalLabel"></h4>
-                    </div>
-                    <div class="modal-body index">
-                        <p>Patterson Sound is capable of providing sound for all types of events needing
-                            sound
-                            reinforcement. Our systems can be configured to suit various venue sizes to
-                            cover up
-                            to 1000
-                            people.
-                            Through our partners, we can also provide basic backline for some events.
-                        </p>
-                        <h4>Soundcraft UI24r Wireless Mixer</h4>
-                        <ul>
-                            <li>2x ART S8 8-channel transformer isolated microphone splitter</li>
-                            <li>4x 8-channel 8ft XLR drop snake</li>
-                            <li>Shure P3T Wireless IEM Transmitter</li>
-                            <li>2x Shure P3RA Wireless IEM Reciever</li>
-                        </ul>
-                        <h4>Speakers</h4>
-                        <ul>
-                            <li>2x JBL PRX425</li>
-                            <li>2x JBL PRX415</li>
-                            <li>2x JBL MRX518s</li>
-                            <li>2x JBL JRX218</li>
-                            <li>4x EAW SM129zi</li>
-                            <li>2x JBL EON10</li>
-                            <li>2x Custom wedge with JBL 15" and Fostex Horn</li>
-                        </ul>
-                        <h4>Amps</h4>
-                        <ul>
-                            <li>Crown XTi4000</li>
-                            <li>Crown XLi3500</li>
-                            <li>Crown XTi2002</li>
-                            <li>Crown XLS2502</li>
-                            <li>Crown CE2000</li>
-                            <li>DBX Driverack 360</li>
-                        </ul>
-                        <h4>Microphones</h4>
-                        <ul>
-                            <li>Shure SM58 Beta Wireless PGX</li>
-                            <li>Shure SM58 Beta Wireless BLX</li>
-                            <li>Shure SM58 Beta</li>
-                            <li>Shure SM58</li>
-                            <li>5x Shure SM57</li>
-                            <li>2x Rode NT1A</li>
-                            <li>MXL990</li>
-                            <li>Sennheiser e602</li>
-                            <li>Radial ProD2 Stereo DI</li>
-                            <li>Radial +48v DI</li>
-                            <li>IMP Passive DI</li>
-                        </ul>
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
         <!---------Javascript------>
 
@@ -422,6 +334,17 @@ loadingText();
             updateURL: true,
             speed: 500
         });
+        function calcRate(){
+            var rate = 350;
+            var numOfMixes = document.getElementById("quantity").value;
+            var discount = ((numOfMixes-1)*.25);
+            if (discount>1){
+               // discount=1;
+            }
+            var estiamte = (rate*numOfMixes)-(rate*discount);
+            document.getElementById("estimaterate").innerHTML = "$"+ Math.floor(estiamte);
+            document.getElementById("discountrate").innerHTML = "$"+ Math.floor(rate*discount);
+        };
         </script>
         <script src="js/sp.js"></script>
         <script language="javascript">

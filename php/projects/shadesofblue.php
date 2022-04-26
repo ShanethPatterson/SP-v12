@@ -14,4 +14,4 @@ $shadesofblue = ["Shades Of Blue", "9 Song Album by <a href=\"http://neilminetan
             <br>
             <b>Featured Track: \"Key To Your Door\"</b><br><i>Track 8</i><br>
             <iframe id='iframe0' data-src=\"https://open.spotify.com/embed/track/0LDQWjwonaveTLhjmCL2kt\" width=\"300\" height=\"80\"
-                    frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>", "Nominated for a 2018 <a href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"];
+                    frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>", "Nominated for a 2018 <a href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award","SAMMY Nominated"];

@@ -3,6 +3,7 @@
     $contacted = false;
     $spam = false;
     //MAIL FORM:
+if(isset($_POST['Name'])){
     $name = $_POST['Name'];
     $email = $_POST['Email'];
     $message = $_POST['message'];
@@ -28,4 +29,5 @@
     } else if(isset($message)) {
         $spam = true;
     }
+}
 ?>

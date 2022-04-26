@@ -10,6 +10,9 @@ body {
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.7) inset;
   overflow-x: hidden;
   position: relative;
+  margin-left: auto;
+margin-right: auto;
+max-width: 1920px;
 }
 
 .body-content {
@@ -62,6 +65,9 @@ body {
 
 .nav-sp {
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
 }
 
 .nav-sp-link {
@@ -301,4 +307,11 @@ h6 {
 }
 .btn {
   border-radius: 0;
+}
+.form-control{
+  color: #fff;
+background-color: rgba(0,0,0,0);
+border: 1px solid #ced4da;
+border-radius: 0;
+transition: 0.5s;
 }

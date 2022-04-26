@@ -22,4 +22,4 @@ $folklore = ["Folklore", "10 Song Album by <a href=\"http://rhiannonpayne.com\">
                 <iframe id='iframe2' data-src=\"https://www.youtube.com/embed/sizNZ2UEy2c\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
                 
                 ", "Nominated for a 2018 <a
-                        href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award"];
+                        href=\"https://www.syracuseareamusic.com/\">SAMMY</a> Award","SAMMY Nominated"];

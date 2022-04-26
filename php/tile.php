@@ -4,6 +4,9 @@
             echo("<div class=\"row\" id='row" . $rowNum . "'>");
             $rowterminated = false;
         }
+        if(!isset($item[10])){
+            $item[10]="";
+        }
         echo("
                 <div class=\"col-md-2 col-6 hidden_element\" onClick=\"showOnlyMusic($i,$rowNum);\">
                 <div class='hoverbox' id='d" . $i . "'>
@@ -15,7 +18,7 @@
             </div>
             </div>
             </div>
-            <span class=\"badge\">" . $item[2] . "</span> <span class=\"badge\">" . $item[3] . "</span>
+            <span class=\"badge\">" . $item[2] . "</span> <span class=\"badge\">" . $item[3] . "</span> <span class=\"badge\">" .  $item[10] . "</span>
             
             </div>
                 ");

@@ -11,6 +11,8 @@ include 'projects/517live.php';
 include 'projects/worththerisk.php';
 include 'projects/recmouthwash.php';
 include 'projects/throwaway.php';
+include 'projects/somelovers.php';
+include 'projects/whatarewefightingfor.php';
 $discography = [ //0: Title
         //1: Byline
         //2: Role
@@ -21,9 +23,10 @@ $discography = [ //0: Title
         //7: Link Array (Youtube, Spotify, Apple Music, Tidal, Bandcamp)
         //8: Widgets
         //9: add. info for byline
+        //10: tile overlay text (keep short)
         //TEMPLATE: ["Title","X Songs Format by <a href="">Artist</a>","Producer","Pop","img/albums/x.jpeg",
         //"description"
-        //,"2019",["yt","sp","am","t","bc"],"widget code","nomintated for somethin"],
+        //,"2019",["yt","sp","am","t","bc"],"widget code","nomintated for somethin","tileoverlaytext"],
         $posted,
         $throwaway,
         $worththerisk,
@@ -33,7 +36,9 @@ $discography = [ //0: Title
         $bigeyes, //big eyes & rosy cheeks
         $shadesofblue, //Shades Of Blue
         $live517,
+        $somelovers,
         $recmouthwash,
+        $whatarewefightingfor,
         $folklore, //Folklore
         $history, //History
 
@@ -71,7 +76,7 @@ $discography = [ //0: Title
         Engineered by Jason Rostkowski<br>
         Mixed and Mastered by Dave Darlington<br>
         <strong>Assistant Engineer: Diego Rodoni, Jonathan Hill, Shane Patterson</strong><br><br>
-        ", "2020", ["", "", "", "", ""], "<div style=\"position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://embed.tidal.com/tracks/152667488?layout=gridify\" frameborder=\"0\" allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;\"></iframe></div>", "Released on Blue Note Records"],
+        ", "2020", ["", "", "", "", ""], "<div style=\"position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://embed.tidal.com/tracks/152667488?layout=gridify\" frameborder=\"0\" allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;\"></iframe></div>", "Released on Blue Note Records","1M+ streams"],
 
         ["Still Into You", "Cover by Isa Bruder", "Producer", "Pop", "img/albums/StillIntoYou.jpeg", "Recorded by Isa Bruder<br><strong>Produced and Mixed by Shane Patterson</strong><br>Guitar by Kate Gallagher<br>Drums by Nate Piazza<br><br>Recorded in the basement of NYU Weinstien Residence Hall", "2018", ["https://youtu.be/mzIJ_2w1m3k", "", "", "", ""], "<iframe data-src=\"https://www.youtube.com/embed/mzIJ_2w1m3k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", ""], //still into you
         ["Nineteen", "Single by Stephen Phillips", "Producer", "Pop", "img/albums/StephenPhillips_Nineteen.jpg", "Written and Performed by Stephen Phillips<br>
@@ -112,7 +117,7 @@ Drums by Ian Lange-McPherson<br>Trumpet by Sophie Manoloff<br>Tap Dancing by  Is
                             href=\"http://hobinstudios.com\">Hobin Studios</A> and <a href=\"http://subcatstudios.com\">Subcat
                         Studios</a>", "2016", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300651553&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
-            ", "Won NYSSMA Award for outstanding Electronic Music Composition (2016)"], //Dichotomy
+            ", "Won NYSSMA Award for outstanding Electronic Music Composition (2016)","NYSSMA Winner"], //Dichotomy
         ["Persevere & WTFAI", "Singles by Raynier", "Producer", "Rap", "img/albums/Raynier.jpg", "<strong>Explicit</strong><br><i>Written
                     and Performed By Raynier<br><strong>Beat Produced by Shane Patterson and David Millen
                     <br>Mixed by Shane Patterson</strong></i><br>Recorded at
@@ -158,5 +163,5 @@ Video by Robert Bryant<br>
                     and Produced By Shane Patterson<br>Guitar: David Millen<br>Cello: Sean Penzo", "2015", ["", "", "", "", ""], "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\"
                         data-src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215093495&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>
           ", "Won NYSSMA Award
-                for outstanding Electronic Music Composition (2015)"] //Intuition
+                for outstanding Electronic Music Composition (2015)","NYSSMA Winner"] //Intuition
 ];

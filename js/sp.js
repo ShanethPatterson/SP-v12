@@ -82,3 +82,7 @@ function bodyLoaded() {
     }, 2000);
     grecaptcha.reset();
 }
+
+setTimeout(function () {
+    (bodyLoaded())
+}, 2000);
